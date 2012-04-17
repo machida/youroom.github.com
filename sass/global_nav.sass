@@ -1,0 +1,82 @@
+@import "mixins"
+@import "variables"
+@import compass/css3
+
+#main-nav-holder
+  height: 50px
+  overflow: hidden
+
+#main-nav
+  ul
+    margin: 0 auto 30px auto
+    height: 50px
+    line-height: 50px
+    text-align: center
+    font-size: 14px
+    background: #333
+    color: #ddd
+    display: block
+    +box-shadow(rgba(0, 0, 0, .4) 0 3px 6px 0)
+    +clearfix
+    z-index: 100
+    position: relative
+  li
+    display: inline
+    padding: 0 15px
+    border-left: 1px solid #555
+    &:first-child
+      border-left: 0
+    a
+      color: #fff
+      text-decoration: none
+
+.sticky #main-nav
+  position: fixed
+  top: 0
+  left: 0
+  width: 100%
+  ul
+    margin: 0 auto
+
+.top
+  position: fixed
+  right: 15px
+  bottom: 15px
+  width: 50px
+  height: 25px
+  padding-top: 25px
+  line-height: 25px
+  background: #333
+  color: #888
+  display: block
+  text-transform: uppercase
+  text-decoration: none
+  text-align: center
+  font-size: 14px
+  -webkit-border-radius: 10px
+  -moz-border-radius: 10px
+  border-radius: 10px
+  behavior: url(../PIE.htc)
+  &:before
+    position: absolute
+    top: 11px
+    left: 14px
+    content: ""
+    border-bottom: 11px solid #888
+    border-left: 11px solid transparent
+    border-right: 11px solid transparent
+  &:hover
+    color: #eee
+    &:before
+      border-bottom-color: #eee
+
+.opacity .top
+  opacity: 1
+  -webkit-transition: opacity 700ms linear
+  -moz-transition: opacity 700ms linear
+  transition: opacity 700ms linear
+  &.hidden
+    opacity: 0
+
+.no-opacity .top.hidden
+  display: none

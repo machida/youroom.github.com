@@ -1,0 +1,113 @@
+=clearfix
+  zoom: 1
+  &:before,
+  &:after
+    display: block
+    height: 0
+    visibility: hidden
+    content: "\0020"
+  &:after
+    clear: both
+
+=image_link
+  display: block
+  text-indent: -9999px
+  background-repeat: no-repeat
+  &:link,
+  &:visited
+    background-position: left top
+  &:hover,
+  &:active
+    background-position: left bottom
+
+=login_button
+  display: block
+  +text-shadow(#126173 0 -1px 0)
+  text-decoration: none
+  color: white
+  border: 1px solid #177388
+  +box-shadow(rgba(255, 255, 255, .1) 0 -1px 0 0, rgba(0, 0, 0, 1.0) 0 1px 1px 0)
+  background-color: rgb(49,186,216)
+  @include filter-gradient(#31bad8, #237f93, vertical)
+  $experimental-support-for-svg: true
+  @include background-image(linear-gradient(top,  rgba(49,186,216,1) 0%,rgba(35,127,147,1) 100%))
+  
+
+=signup_button
+  display: block
+  +text-shadow(#126173 0 -1px 0)
+  text-decoration: none
+  color: white
+  +box-shadow(rgba(255, 255, 255, .5) 0 1px 1px 0px inset, rgba(255, 255, 255, 1.0) 0 -1px 1px 0, rgba(0, 0, 0, .2) 0 1px 1px 1px)
+  border: 1px solid #177388
+  background-color: rgb(49,186,216)
+  @include filter-gradient(#31bad8, #237f93, vertical)
+  $experimental-support-for-svg: true
+  @include background-image(linear-gradient(top,  rgba(49,186,216,1) 0%,rgba(35,127,147,1) 100%))
+
+=text_link
+  &:link,
+  &:visited
+    text-decoration: none
+  &:hover,
+  &:active
+    text-decoration: underline
+
+=text_link_line
+  &:link,
+  &:visited
+    text-decoration: underline
+  &:hover,
+  &:active
+    text-decoration: none
+=opacity_link
+  &:link,
+  &:visited
+    opacity: 1
+  &:hover,
+  &:active
+    opacity: 0.7
+
+=sign_up
+  line-height: 1.6
+  margin: 0 0 40px 0
+  clear: both
+  a
+    display: block
+    text-decoration: none
+    position: relative
+    font-weight: bold
+    color: #333
+    padding: 10px 10px 4px 50px
+    text-align: center
+    font-size: 26px
+    width: 260px
+    margin: 0 auto
+    border: #aaa solid 1px
+    +opacity_link
+    +border-radius(12px)
+    +text_shadow(rgba(255, 255, 255, 1.0) 0 1px 0)
+    +box-shadow(rgba(255, 255, 255, 1.0) 0 1px 0 0 inset, rgba(0, 0, 0, .3) 0 1px 1px 0)
+    background-color: rgb(239,239,239)
+    @include filter-gradient(#efefef, #cccccc, vertical)
+    $experimental-support-for-svg: true
+    @include background-image(linear-gradient(top,  rgba(239,239,239,1) 0%,rgba(204,204,204,1) 100%))
+    span.whithout_mail
+      display: block
+      font-size: 11px
+      line-height: 1
+    span.free
+      display: block
+      font-size: 13px
+      position: absolute
+      left: 10px
+      top: 10px
+      background: #e11f51
+      text-shadow: none
+      color: #fff
+      width: 70px
+      text-align: center
+      width: 46px
+      height: 46px
+      line-height: 46px
+      +border-radius(23px)

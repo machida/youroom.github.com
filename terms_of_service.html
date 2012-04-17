@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta content='youRoom,ユールーム,ゆーるーむ' name='keywords' />
+    <title>youRoom - Task management is communication</title>
+    <link href='images/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon' />
+    <link href='images/favicon.ico' rel='icon' type='image/vnd.microsoft.icon' />
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.4.min.js"></script>
+    <script src="javascripts/modernizr.custom.js"></script>
+    <script src="javascripts/smoothscroll.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="stylesheets/facebox.css" type="text/css" />
+    <script type="text/javascript" src="javascripts/facebox.js"></script>
+    <script type="text/javascript">
+       jQuery(document).ready(function($) {
+           $('a[rel*=facebox]').facebox({
+               loading_image : 'loading.gif',
+               close_image   : 'closelabel.gif'
+           });
+       });
+    </script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-10225950-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+<body>
+  <!-- Facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=177651085648087";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <header id="top">
+    <h1><a href="http://ja.youroom.in">youRoom</a></h1>
+    <ul class="social_buttons">
+      <li class="facebopok"><div class="fb-like" data-href="http://www.facebook.com/youroom" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true" data-action="recommend"></div></li>
+      <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="youroom" data-lang="ja">ツイート</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <nav>
+      <ul>
+        <li><a href=""><span>youRoomに</span>ログイン</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="wrapper">
+
+    <section id="about">
+      <div class="contents privacy">
+        <h1>利用規約</h1>
+
+        <div class="" id="si-content-wrap">
+          <div class="tos">
+            <h2>第1条（利用規約の適用）</h2>
+            <ol>
+              <li>この利用規約（以下「利用規約」といいます）は、株式会社ソニックガーデン（以下「弊社」といいます）が本サイト上で提供する「youRoom」（以下「サービス」といいます）をご利用になられる方（以下「ユーザ」といいます）が、サービスを利用する際の一切の行為に適用されます。</li>
+              <li>本サイトには、利用規約のほか、その他諸規定において本サービスの利用条件が規定されています。その他諸規定は名称の如何に関わらず利用規約の一部を構成します。なお、利用規約とその他諸規定の内容が異なる場合は、当該その他諸規定が優先して適用されます。</li>
+              <li>利用規約は本サービスの利用条件を定めるものであり、ユーザは利用規約に従って本サービスを利用することとします。ユーザは本サービスを利用した時点で、この利用規約のすべての記載内容に同意したものとみなされます。</li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第2条（利用規約の変更）</h2>
+            <ol>
+              <li>
+                弊社は、弊社の判断により、利用規約をいつでも任意の理由で変更することができます。
+              </li>
+              <li>
+                変更後の利用規約は、弊社が別途定める場合を除いて、本サイト上に表示した時点より効力が生じます。
+              </li>
+              <li>
+                ユーザが、利用規約の変更の効力が生じた後に本サービスをご利用になる場合には、変更後の利用規約のすべての記載内容に同意したものとみなされます。
+              </li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第3条（サービスの変更等）</h2>
+            <p>弊社は、弊社の都合により、本サービスをいつでも任意の理由で追加、変更、中断、終了することができます。</p>
+          </div>
+          <div class="tos">
+            <h2>第4条（個人情報の取扱い）</h2>
+            <p>弊社は、個人情報を「個人情報保護方針」及び「youRoomでの個人情報の取り扱いについて」に基づき、適切に取り扱います。</p>
+          </div>
+          <div class="tos">
+            <h2>第5条（入会）</h2>
+            <ol>
+              <li>
+                本サービスに入会できるのは以下のすべてを満たす方に限ります。
+                <ol>
+                  <li>満18歳以上の方</li>
+                  <li>ユーザから招待を受けた方</li>
+                </ol>
+                ただし、弊社が別途入会を認めた方は除きます。
+              </li>
+              <li>本サービスの利用を希望する方は、利用規約の内容に同意した上で、弊社所定の方法により入会の申込を行います。</li>
+              <li>弊社は、ユーザに対して新サービスの告知、アンケートの実施、広告配信、サービス運営上の事務連絡、その他情報の提供を行います。</li>
+              <li>弊社または弊社が契約している広告会社は、本サービスを利用してユーザが掲載する情報（以下「エントリ等の情報」といいます）を解析するため、エントリ等の情報の閲覧、複製等を行います。</li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第6条（入会申込の不承諾）</h2>
+            <p>弊社は、次の各号のいずれかに該当する場合は、弊社の判断によって入会申込者の入会申込を承諾しないことがあります。</p>
+            <ol>
+              <li>入会申込者が、過去に利用規約又はその他諸規定に違反したことを理由として、弊社から強制的に退会処分を受けた方である場合</li>
+              <li>その他弊社が不適切と判断した場合</li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>
+              第7条（退会）
+            </h2>
+            <ol>
+              <li>
+                ユーザが退会を希望する場合には、ユーザは弊社所定の方法により退会の申出を行います。
+              </li>
+              <li>
+                弊社は、ユーザが次の各号に掲げるいずれかの行為を行った場合には、弊社の判断によって、ユーザを強制的に退会させて本サービスの利用をお断りすることがあります。
+                <ol>
+                  <li>利用規約又はその他諸規定に違反した場合</li>
+                  <li>その他弊社が不適切と判断した場合</li>
+                </ol>
+              </li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第8条（利用料金）</h2>
+            <p>本サービスの利用は無料とします。</p>
+          </div>
+          <div class="tos">
+            <h2>第9条（登録メールアドレスとパスワード）</h2>
+            <ol>
+              <li>ユーザは、自らが管理する使用可能なメールアドレスを登録メールアドレスとして登録しなければならず、当該登録メールアドレスが使用できなくなったときには、自らが管理する使用可能な別のメールアドレスに変更しなければなりません。</li>
+              <li>ユーザは、自己の登録メールアドレス及びパスワードの不正利用の防止に努めるとともに、その管理について一切の責任を持ちます。</li>
+              <li>弊社の故意又は重大な過失に起因する場合を除き、登録メールアドレスやパスワードが第三者に利用されたことによって生じたいかなる損害等についても、弊社は一切の責任を負いません。</li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第10条（利用環境の整備）</h2>
+            <ol>
+              <li>
+                ユーザは、本サービスを利用するために必要なあらゆる機器、ソフトウェア、通信手段を自己の責任と費用において、適切に整備します。
+              </li>
+              <li>
+                ユーザは自己の利用環境に応じて、コンピューター・ウィルスの感染の防止、不正アクセス及び情報漏洩の防止等のセキュリティ対策を講じます。
+              </li>
+              <li>
+                弊社はユーザの利用環境について一切関与せず、また一切の責任を負いません。
+              </li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>
+              第11条（ユーザの責任）
+            </h2>
+            <ol>
+              <li>
+                ユーザは、ユーザ自身の自己責任において本サービスを利用するものとし、本サービスを利用してなされた一切の行為及びその結果について一切の責任を負います。
+              </li>
+              <li>
+                エントリ等の情報に関する責任は、ユーザ自身にあります。弊社はユーザがエントリ等の情報の内容について、一切責任を負いません。
+              </li>
+              <li>
+                ユーザが他者の名誉を毀損した場合、プライバシー権を侵害した場合、許諾なく第三者の個人情報を開示した場合、著作権法に違反する行為を行った場合その他  他者の権利を侵害した場合には、当該ユーザは自身の責任と費用において解決しなければならず、弊社は一切の責任を負いません。
+              </li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第12条（禁止事項）</h2>
+            <p>
+              ユーザは、本サービスの利用にあたり、次に掲げる行為を行ってはならないものとします。禁止事項に違反した場合には、強制退会、利用停止、エントリ等の情報の全部もしくは一部の削除等を行うことがあります。
+            </p>
+            <ol>
+              <li>弊社もしくは他者の知的財産権（著作権、商標権等）、財産、プライバシーもしくは肖像権を侵害する行為、又は侵害するおそれのある行為。</li>
+              <li>弊社もしくは他者を差別、誹謗中傷、侮辱し、他者への差別を助長し、又はその名誉もしくは信用を毀損する行為。</li>
+              <li>詐欺、規制薬物の濫用、児童売買春、預貯金口座及び携帯電話の違法な売買等の犯罪に結びつく、又は結びつくおそれのある行為。</li>
+              <li>
+                違法行為（けん銃等の譲渡、爆発物の製造、児童ポルノの提供、公文書偽造、殺人、脅迫等）を引き受け、仲介し、又は誘引する行為。
+              </li>
+              <li>
+                わいせつ、児童ポルノ又は児童虐待に相当する情報、もしくは、弊社がそれらに該当すると判断する情報を掲載する行為。
+              </li>
+              <li>
+                性行為、わいせつな行為等を目的として利用する行為。
+              </li>
+              <li>
+                面識のない異性又は同性との出会い等を目的とする利用する行為。
+              </li>
+              <li>
+                人の殺害、傷害現場、死体、その他残虐な行為及び、その他社会通念上著しく嫌悪感を抱かせる情報を掲載する行為。
+              </li>
+              <li>
+                他者を自殺に誘引又は勧誘する行為。
+              </li>
+              <li>
+                違法な賭博・ギャンブルを行わせ、又は違法な賭博・ギャンブルへの参加を勧誘する行為。
+              </li>
+              <li>
+                無限連鎖講、マルチ商法、又はそれに類するおそれのある目的で本サービスを利用もしくは勧誘する行為。
+              </li>
+              <li>
+                弊社の設備に蓄積された情報を改ざん又は消去する行為。
+              </li>
+              <li>
+                ウィルス等の有害なコンピュータプログラム等を送信又は掲載する行為。
+              </li>
+              <li>
+                弊社又は他者のサーバーに負担をかける行為、もしくは、本サービスの利用や運営に支障を与える行為、又はこれらのおそれのある行為。
+              </li>
+              <li>
+                スパム行為又は弊社がスパム行為と判断する行為。
+              </li>
+              <li>
+                他者になりすまして本サービスを利用する行為。
+              </li>
+              <li>
+                1人が複数のアカウントを保有する行為又は複数人が1つのアカウントを共同して保有する行為。ただし、弊社が別途認めた方を除く。
+              </li>
+              <li>
+                18歳未満の方が本サービスを利用する行為。ただし、弊社が別途認めた方を除く。
+              </li>
+              <li>
+                第7条第2項により強制退会とされたユーザを招待する行為。
+              </li>
+              <li>
+                法令、公序良俗又は利用規約もしくはその他諸規定に違反し、又は他者の権利を侵害すると弊社が判断する行為。
+              </li>
+              <li>
+                その他、弊社が不適切と判断する行為。
+              </li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第13条（エントリ等の情報に関する権利）</h2>
+            <p>
+              エントリ等の情報を掲載するユーザは、弊社に対し、当該エントリ等の情報が第三者の権利を侵害していないことを保証します。万一、第三者との間で何らかの  紛争が発生した場合には、当該ユーザの費用と責任において問題を解決するとともに、弊社に何等の迷惑又は損害を与えません。
+            </p>
+          </div>
+          <div class="tos">
+            <h2>第14条（エントリ等の情報の使用許諾等）</h2>
+            <ol>
+              <li>
+                エントリ等の情報の著作権は、創作したユーザに帰属します。
+              </li>
+              <li>
+                弊社は、ユーザが掲載するエントリ等の情報を、本サービスの提供、弊社システムの構築、改良、メンテナンスに必要な範囲内で、使用することができます。
+              </li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第15条（情報の削除権限）</h2>
+            <p>
+              弊社は、エントリ等の情報の違法性・規約違反の有無に関わらず、公的機関や専門家からの指摘又は権利者からの権利侵害の申告等合理的な理由がある場合には、関連するエントリ等の情報についてその全部もしくは一部の削除又は公開範囲の変更等の措置を行うことができます。
+            </p>
+          </div>
+          <div class="tos">
+            <h2>第16条（免責事項）</h2>
+            <ol>
+              <li>
+                弊社は、ユーザの通信や活動に関与しません。万一ユーザ間の紛争があった場合でも、当該ユーザ間で解決するものとし、弊社はその責任を負いません。
+              </li>
+              <li>
+                弊社は、ユーザによって掲載されるエントリ等の情報を監視し、保存する義務を負いません。
+              </li>
+              <li>
+                弊社は、本サービスの内容の追加、変更、又は本サービスの中断、終了によって生じたいかなる損害についても、一切責任を負いません。アクセス過多、その他予期せぬ要因で表示速度の低下や障害等が生じた場合も同様とします。
+              </li>
+              <li>
+                弊社は、ユーザによって掲載されるエントリ等の情報の合法性、道徳性、信頼性、正確性について責任を負いません。ユーザによって掲載されるエントリ等の情報が、当該ユーザが所属する法人・団体等の内部規則等に適合することについても、責任を負いません。
+              </li>
+              <li>
+                弊社は、次に掲げる場合には、エントリ等の情報の内容を閲覧し又は第三者に開示することができるものとします。弊社は、それによってユーザに生じたいかなる損害についても、一切責任を負いません。
+                <ol>
+                  <li>本サービスの技術的不具合の原因を解明し、解消するために必要な場合。</li>
+                  <li>裁判所や警察などの公的機関から、法令に基づく依頼を受けた場合。</li>
+                  <li>利用規約に違反する行為又はそのおそれのある行為が行われ、エントリ等の情報の内容を確認する必要が生じたと弊社が判断した場合。</li>
+                  <li>人の生命、身体及び財産などに差し迫った危険があり、緊急の必要性があると弊社が判断した場合。</li>
+                  <li>その他本サービスを適切に運営するために必要が生じた場合。</li>
+                </ol>
+              </li>
+              <li>弊社は、利用規約又はその他諸規定に基づき処置した強制退会処分、エントリ等の情報の全部もしくは一部の削除、及び公開範囲の変更等を行うことによりユーザに生じたいかなる損害についても、一切責任を負いません。</li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h2>第17条（準拠法）</h2>
+            <p>利用規約に関する準拠法は日本法とします。</p>
+          </div>
+          <div class="tos">
+            <h2>第18条（管轄裁判所）</h2>
+            <p>ユーザと弊社の間で訴訟の必要が生じた場合、東京地方裁判所を第一審の専属的合意管轄裁判所とします。</p>
+          </div>
+        </div>
+
+      </div><!-- .contents -->
+    </section><!-- #about -->
+
+    <div id="footer">
+      <nav>
+        <ul>
+          <li><a href="#top">ページのトップ</a></li>
+          <li><a href="http://ja.youroom.in/terms_of_service.html">利用規約</a></li>
+          <li><a href="http://ja.youroom.in/law.html">特定商取引法に基づく表記</a></li>
+          <li><a href="http://ja.youroom.in/privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+    </div>
+    <footer>
+        <nav>
+                <ul>
+                        <li><a class="top" href="#top" title="Back to top">Top</a></li>
+                </ul>
+        </nav>
+    </footer>
+  </div>
+  <script src="javascripts/waypoints.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+        $('.top').addClass('hidden');
+        $.waypoints.settings.scrollThrottle = 30;
+        $('#wrapper').waypoint(function(event, direction) {
+                $('.top').toggleClass('hidden', direction === "up");
+        }, {
+                offset: '-100%'
+        }).find('#main-nav-holder').waypoint(function(event, direction) {
+                $(this).parent().toggleClass('sticky', direction === "down");
+                event.stopPropagation();
+        });
+  });
+  </script>
+</body>

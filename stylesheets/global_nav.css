@@ -1,0 +1,118 @@
+/* line 5, ../sass/global_nav.sass */
+#main-nav-holder {
+  height: 50px;
+  overflow: hidden;
+}
+
+/* line 10, ../sass/global_nav.sass */
+#main-nav ul {
+  margin: 0 auto 30px auto;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-size: 14px;
+  background: #333333;
+  color: #dddddd;
+  display: block;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0 3px 6px 0;
+  zoom: 1;
+  z-index: 100;
+  position: relative;
+}
+/* line 3, ../sass/mixins.sass */
+#main-nav ul:before, #main-nav ul:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+#main-nav ul:after {
+  clear: both;
+}
+/* line 23, ../sass/global_nav.sass */
+#main-nav li {
+  display: inline;
+  padding: 0 15px;
+  border-left: 1px solid #555555;
+}
+/* line 27, ../sass/global_nav.sass */
+#main-nav li:first-child {
+  border-left: 0;
+}
+/* line 29, ../sass/global_nav.sass */
+#main-nav li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 33, ../sass/global_nav.sass */
+.sticky #main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+/* line 38, ../sass/global_nav.sass */
+.sticky #main-nav ul {
+  margin: 0 auto;
+}
+
+/* line 41, ../sass/global_nav.sass */
+.top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 50px;
+  height: 25px;
+  padding-top: 25px;
+  line-height: 25px;
+  background: #333333;
+  color: #888888;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  behavior: url(../PIE.htc);
+}
+/* line 60, ../sass/global_nav.sass */
+.top:before {
+  position: absolute;
+  top: 11px;
+  left: 14px;
+  content: "";
+  border-bottom: 11px solid #888888;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+}
+/* line 68, ../sass/global_nav.sass */
+.top:hover {
+  color: #eeeeee;
+}
+/* line 70, ../sass/global_nav.sass */
+.top:hover:before {
+  border-bottom-color: #eeeeee;
+}
+
+/* line 73, ../sass/global_nav.sass */
+.opacity .top {
+  opacity: 1;
+  -webkit-transition: opacity 700ms linear;
+  -moz-transition: opacity 700ms linear;
+  transition: opacity 700ms linear;
+}
+/* line 78, ../sass/global_nav.sass */
+.opacity .top.hidden {
+  opacity: 0;
+}
+
+/* line 81, ../sass/global_nav.sass */
+.no-opacity .top.hidden {
+  display: none;
+}

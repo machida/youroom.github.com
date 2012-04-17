@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta content='youRoom,ユールーム,ゆーるーむ' name='keywords' />
+    <title>youRoom - Task management is communication</title>
+    <link href='images/favicon.ico' rel='shortcut icon' type='image/vnd.microsoft.icon' />
+    <link href='images/favicon.ico' rel='icon' type='image/vnd.microsoft.icon' />
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <link href="stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <![endif]-->
+    <script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.4.min.js"></script>
+    <script src="javascripts/modernizr.custom.js"></script>
+    <script src="javascripts/smoothscroll.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="stylesheets/facebox.css" type="text/css" />
+    <script type="text/javascript" src="javascripts/facebox.js"></script>
+    <script type="text/javascript">
+       jQuery(document).ready(function($) {
+           $('a[rel*=facebox]').facebox({
+               loading_image : 'loading.gif',
+               close_image   : 'closelabel.gif'
+           });
+       });
+    </script>
+
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-10225950-9']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+</head>
+<body>
+  <!-- Facebook -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=177651085648087";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+  <header id="top">
+    <h1><a href="http://ja.youroom.in">youRoom</a></h1>
+    <ul class="social_buttons">
+      <li class="facebopok"><div class="fb-like" data-href="http://www.facebook.com/youroom" data-send="false" data-layout="button_count" data-width="100" data-show-faces="true" data-action="recommend"></div></li>
+      <li><a href="https://twitter.com/share" class="twitter-share-button" data-via="youroom" data-lang="ja">ツイート</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <nav>
+      <ul>
+        <li><a href=""><span>youRoomに</span>ログイン</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div id="wrapper">
+
+    <section id="about">
+      <div class="contents privacy">
+        <h1>プライバシーポリシー</h1>
+
+        <div class="tos">
+          <h2>個人情報保護方針</h2>
+          <p>当社は、適切な個人情報保護を実施するための基本方針を下記の通り宣言し、個人情報保護に関するマネジメントシステムの実施ならびに改善を行います。</p>
+          <p class="sign-center">記</p>
+          <ol>
+            <li>事業の内容および規模を考慮した適切な個人情報の取得、利用および提供について定めた社内規定を遵守します。この規定には個人情報の利用目的の達成に必要な範囲を超えた取扱を行わないことおよびそのための措置を含みます。</li>
+            <li>個人情報に関する法令、国が定める指針やその他の規範を遵守します。</li>
+            <li>個人情報への不正アクセス、個人情報の紛失、破壊、改ざんおよび漏えいなどの予防ならびに是正に関する適切な措置を講じます。</li>
+            <li>個人情報に関する苦情、相談への対応を実施します。</li>
+            <li>個人情報保護に関するマネジメントシステムを継続的に改善します。</li>
+          </ol>
+          <p class="sign-right">以上</p>
+          <p class="sign-right">株式会社ソニックガーデン 倉貫義人</p>
+        </div>
+
+        <div class="tos">
+          <h2>youRoomでの個人情報の取り扱いについて</h2>
+          <p>当社は、「youRoom」（以下「サービス」といいます）をご利用になられる方（以下「ユーザ」といいます）の個人情報の管理に細心の注意を払います。</p>
+          <p class="sign-right">株式会社ソニックガーデン 倉貫義人</p>
+          <p class="sign-center">記</p>
+          <div class="tos">
+            <h3>1．個人情報の定義</h3>
+            <p>本サービスにおいて、当社が取得し管理する個人情報は次のものです。</p>
+            <ol class="li-c">
+              <li>メールアドレス</li>
+              <li>パスワード</li>
+            </ol>
+          </div>
+          <div class="tos">
+            <h3>2．個人情報の利用目的</h3>
+            <p>当社は、ユーザの個人情報を以下の目的で利用します。</p>
+            <ul class="li-c">
+              <li>サービスを提供するため</li>
+              <li>サービスの運営に関する連絡をするため</li>
+              <li>サービスの利便性を向上させるためのアンケート等を実施するため</li>
+              <li>サービスの利用規約の違反を防止するため</li>
+              <li>サービスの利用状況の解析を実施するため(個人情報が開示されることはありません)</li>
+              <li>当社が契約している広告会社によるコンテンツの解析するため</li>
+            </ul>
+          </div>
+          <div class="tos">
+            <h3>3．個人情報の取得</h3>
+            <p>当社は、ご本人の同意を得たうえで、適法かつ公正な手段により個人情報を取得します。個人情報を間接的に入手する場合、入手する個人情報について提供者が適法かつ公正な手段で入手したものであるかを確認します。</p>
+          </div>
+          <div class="tos">
+            <h3>4．第三者への開示、提供</h3>
+            <p>弊社は以下の場合を除いて個人情報を第三者に開示することはありません。</p>
+            <ul class="li-c">
+              <li>
+                ユーザ本人の同意がある場合
+              </li>
+              <li>
+                管轄官公庁・検察・警察・行政機関の要求、裁判所の命令、その他法令に基づき開示の要求があった場合
+              </li>
+            </ul>
+          </div>
+          <div class="tos">
+            <h3>5．個人情報の預託</h3>
+            <p>当社は、本サービスの運営または利用目的の遂行のため、個人情報を社外に預託する場合があります。</p>
+          </div>
+          <div class="tos">
+            <h3>6．個人情報の開示、修正、削除</h3>
+            <p>個人情報は、ユーザご本人により、本サービスのサイトから確認および訂正することができます。なお、サービスからの退会処理を行った場合、個人情報は一定期間保存された後、削除されます。</p>
+          </div>
+          <div class="tos">
+            <h3>7．他のWebサイトへのリンク・クッキーについて</h3>
+            <p>サービスには、外部のウェブサイトへのリンクを多く含んでいますが、当社はリンク先のウェブサイトにおける個人情報の取り扱いについては責任を負いかねます。  各リンク先のサイトのご利用に際しては、それぞれのプライバシーポリシーを一読される事を推奨します。<br><br>当サイトは、ユーザ利便性の向上、およびユーザ認証のためクッキーを使用しています。  また、当サイト上に表示された広告によりクッキーが使用される場合があります。  この場合、広告主によるクッキーの利用は、広告主のプライバシーの考え方に従って行われます。</p>
+          </div>
+          <div class="tos">
+            <h3>8．プライバシーポリシーの改定について</h3>
+            <p>当プライバシーポリシーの全部または一部を改定することがあります。  改定した場合は当サイトでお知らせします。</p>
+          </div>
+          <div class="tos">
+            <h3>9．問い合わせ先</h3>
+            <p>プライバシーポリシー関するお問い合わせは、<a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=info@youroom.in" target="_blank">info@youroom.in</a>までご連絡下さい。</p>
+          </div>
+        </div>
+
+      </div><!-- .contents -->
+    </section><!-- #about -->
+
+    <div id="footer">
+      <nav>
+        <ul>
+          <li><a href="#top">ページのトップ</a></li>
+          <li><a href="http://ja.youroom.in/terms_of_service.html">利用規約</a></li>
+          <li><a href="http://ja.youroom.in/law.html">特定商取引法に基づく表記</a></li>
+          <li><a href="http://ja.youroom.in/privacy.html">プライバシーポリシー</a></li>
+        </ul>
+      </nav>
+    </div>
+    <footer>
+        <nav>
+                <ul>
+                        <li><a class="top" href="#top" title="Back to top">Top</a></li>
+                </ul>
+        </nav>
+    </footer>
+  </div>
+  <script src="javascripts/waypoints.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+        $('.top').addClass('hidden');
+        $.waypoints.settings.scrollThrottle = 30;
+        $('#wrapper').waypoint(function(event, direction) {
+                $('.top').toggleClass('hidden', direction === "up");
+        }, {
+                offset: '-100%'
+        }).find('#main-nav-holder').waypoint(function(event, direction) {
+                $(this).parent().toggleClass('sticky', direction === "down");
+                event.stopPropagation();
+        });
+  });
+  </script>
+</body>
