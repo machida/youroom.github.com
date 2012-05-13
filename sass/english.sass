@@ -1,0 +1,654 @@
+body#en
+  section#movie
+    .contents
+      hgroup
+        h1
+          display: block
+          background: url(../images/movie_hgroup_h1.png) no-repeat
+          height: 58px
+          text-indent: -9999px
+          margin: 0 0 12px 0
+        h2
+          display: block
+          background: url(../images/movie_hgroup_h2.png) no-repeat
+          height: 62px
+          text-indent: -9999px
+        h3
+          font-size: 18px
+          padding-top: 20px
+          line-height: 1.4
+        p
+          color: #333330
+        .sign_up
+          margin-top: 32px
+          padding: 24px 0 0 0
+          a
+            font-size: 22px
+        p
+          font-size: 11px
+          text-align: center
+          padding: 12px 0 0 0
+
+body#en
+  section#about
+    .contents
+      .description
+        h1
+          background: url(../images/en/about_h1.png)
+          width: 428px
+          height: 65px
+          display: block
+          margin: 0 auto 20px auto
+          text-indent: -9999px
+        p
+          line-height: 1.4
+          margin: 0 0 20px 0
+          font-size: 15px
+          strong
+            font-weight: bold
+            color: #000
+      .problems
+        +clearfix
+        padding: 0 0 30px 0
+        p.sign_up
+          +sign_up
+        .with_no_waste
+          clear: both
+          padding: 50px 0 30px 0
+          +clearfix
+        .problem
+          float: left
+          width: 420px
+          clear: both
+          padding: 0 50px 0 0
+          background: url(../images/problem.png) no-repeat right 70px
+          h2
+            height: 83px
+            display: block
+            text-indent: -9999px
+          p
+            font-size: 13px
+            line-height: 1.4
+            margin-bottom: 10px
+        .solution
+          float: right
+          width: 480px
+          h3
+            padding: 6px 14px 5px 14px
+            border: #89c25b solid 1px
+            +border-radius(6px 6px 0 0)
+            background-color: rgb(154,211,107)
+            @include filter-gradient(#9ad36b, #89c25b, vertical)
+            $experimental-support-for-svg: true
+            @include background-image(linear-gradient(top,  rgba(154,211,107,1) 0%,rgba(137,194,91,1) 100%))
+            span
+              background: url(../images/en/solution_h3.png) no-repeat left top
+              height: 28px
+              display: block
+              text-indent: -9999px
+          .body
+            border-bottom: #89c25b solid 5px
+            border-left: #89c25b solid 5px
+            border-right: #89c25b solid 5px
+            +border-radius(0 0 6px 6px)
+            padding: 8px 16px
+            padding-top: 20px
+            background: rgba(255, 255, 255, .8)
+            +clearfix
+            p
+              line-height: 1.4
+              font-size: 13px
+              margin: 0 0 1.4em 0
+            a
+              img
+                margin: 0 0 10px 16px
+                float: right
+        .high-speed
+          h2
+            background: url(../images/en/high-speed_h2.png) no-repeat left top
+        .with_no_waste
+          h2
+            background: url(../images/en/with_no_waste_h2.png) no-repeat left top
+      .anytime_anywhere
+        clear: both
+        width: 730px
+        background: rgba(255, 255, 255, .4)
+        border: #abd5ee solid 6px
+        padding: 16px 30px 16px 20px
+        +border-radius(8px)
+        margin: 0 auto
+        margin-bottom: 20px
+        .inner
+          padding: 0 260px 0 0
+          background: url(../images/anytime_anywhere.png) no-repeat right bottom
+          h2
+            font-size: 20px
+            font-weight: bold
+            margin: 0 0 10px 0
+            color: #007DA7
+            background: url(../images/anytime_anywhere_h2.png) no-repeat left center
+            height: 23px
+            padding: 0 0 0 42px
+            +text-shadow(rgba(255, 255, 255, 1.0) 0 1px 0)
+          p
+            line-height: 1.4
+            display: block
+            font-size: 13px
+            color: #5c5845
+            margin-bottom: 7px
+      .usage
+        .inner
+          h2
+      .functions, .terms
+        clear: both
+        +clearfix
+        h2
+          font-size: 22px
+          display: block
+          margin: 0 0 16px 0
+          font-weight: bold
+          span
+            font-size: 12px
+            font-weight: normal
+            margin: 0 0 0 10px
+        .description
+          p
+            display: block
+            margin: 0 0 18px 0
+        ul
+          +clearfix
+          width: 100%
+          float: left
+          .function
+            h3
+              font-weight: bold
+              font-size: 13px
+              line-height: 1.4
+              margin: 0 0 10px 0
+            p
+              line-height: 1.4
+              color: #504e0c
+              background-color: white
+              padding: 10px
+              +border-radius(6px)
+body#en
+  section#faq
+    .contents
+      h1
+        background: url(../images/en/faq_h1.png) no-repeat
+      ul
+        li.faq
+          display: block
+          padding: 0 0 28px 0
+          clear: both
+          +clearfix
+          h2
+            font-size: 20px
+            float: left
+            width: 240px
+            line-height: 1.4
+          p
+            float: right
+            width: 510px
+            display: block
+            line-height: 1.4
+
+
+body#en
+  #voices_senes
+    .contents
+      h1
+        background: url(../images/en/voices_senes_h1.png) no-repeat
+        height: 42px
+        text-indent: -9999px
+        margin: 0 0 20px 0
+      h2
+      p.sign_up
+        +sign_up
+      .voices
+        .voice
+          p
+            background: url("../images/voices_p.gif") no-repeat left top
+            margin: 6px 40px 0 0
+            line-height: 1.3
+            display: block
+            +border-radius(6px)
+            padding: 29px 0 20px 20px
+            span
+              display: block
+            .name
+              font-size: 14px
+              font-weight: bold
+          p.message
+            background: none
+            background-color: white
+            padding: 20px
+        .center
+          margin: 0 10px
+      .companies
+        padding: 0 0 30px 0
+        h2
+          font-size: 14px
+          display: block
+          float: left
+          +border-radius(14px)
+          background: rgba(159, 116, 32, 0.6)
+          +box-shadow(rgba(0, 0, 0, .2)0 1px 0 inset)
+          +text-shadow(rgba(0, 0, 0, .2)0 1px 0)
+          color: #fff
+          padding: 6px 0
+          width: 160px
+          text-align: center
+          font-weight: normal
+        ul
+          +clearfix
+          clear: both
+          padding: 0 0 20px 0
+          li.company
+            float: left
+            display: block
+            padding: 0 5px
+      .medias
+        +clearfix
+        margin: 0 0 30px 0
+        h2
+          font-size: 14px
+          display: block
+          float: left
+          +border-radius(14px)
+          background: rgba(159, 116, 32, 0.6)
+          +box-shadow(rgba(0, 0, 0, .2)0 1px 0 inset)
+          +text-shadow(rgba(0, 0, 0, .2)0 1px 0)
+          color: #fff
+          padding: 6px 0
+          width: 160px
+          text-align: center
+          font-weight: normal
+        ul
+          +clearfix
+          clear: both
+          padding: 0 0 20px 40px
+          li.media
+            float: left
+            display: block
+            padding: 0 5px
+      .senes
+        clear: both
+        +clearfix
+        h2
+          span
+            font-size: 12px
+            font-weight: normal
+            margin: 0 0 0 10px
+        .description
+          p
+            display: block
+            margin: 0 0 18px 0
+        ul
+          +clearfix
+          width: 100%
+          float: left
+          .scene
+            float: left
+            font-size: 13px
+            width: 280px
+            height: 300px
+            h3
+              font-weight: bold
+              font-size: 13px
+              line-height: 1.6
+              margin: 0 0 10px 0
+            p
+              line-height: 1.4
+              color: #504e0c
+              a
+                font-weight: bold
+            .image
+              img
+                display: block
+                margin: 14px auto 0 auto
+          .center
+            border-left: #fff solid 1px
+            border-right: #eae3ce solid 1px
+            padding: 15px
+          .left
+            border-right: #eae3ce solid 1px
+            padding: 15px 15px 15px 0
+          .right
+            border-left: #fff solid 1px
+            padding: 15px 0 15px 15px
+body#en
+  #pricing
+    .contents
+      h1
+        background: url(../images/en/pricing_h1.png) no-repeat
+        height: 42px
+        text-indent: -9999px
+        margin: 0 0 20px 0
+      p
+        line-height: 1.4
+      p.sign_up
+        +sign_up
+      .main
+        margin: 0 0 20px 0
+        float: left
+        width: 380px
+        font-size: 13px
+      .premium_plan
+        padding: 12px
+        float: right
+        width: 520px
+        margin: -40px 0 20px 0
+        border: #4682b4 solid 1px
+        background: #4682b4
+        color: #fff
+        +border-radius(4px)
+        h2
+          font-weight: bold
+          font-size: 16px
+          margin: 0 0 8px 0
+        strong
+          font-weight: bold
+          color: yellow
+          font-size: 14px
+        ul
+          padding: 0 20px
+          li
+            display: block
+            line-height: 1.3
+            margin: 0 0 5px 0
+            font-size: 13px
+            padding: 0 0 0 14px
+            background: url(../images/enterprise_plan_li.png) no-repeat 0 8px
+      .fan_plan
+        position: relative
+        clear: both
+        margin: 0 0 30px 0
+        padding: 18px
+        +clearfix
+        +border-radius(4px)
+        +box-shadow(rgba(0, 0, 0, .2) 0 1px 3px 1px, rgba(255, 255, 255, 1.0) 0 1px 1px 1px inset)
+        background-color: rgb(249,249,249)
+        @include filter-gradient(#fcfcfc, #f2f2f2, vertical)
+        $experimental-support-for-svg: true
+        @include background-image(linear-gradient(top,  rgba(252,252,252,1) 0%,rgba(242,242,242,1) 100%))
+        .recommend
+          background: url(../images/recommend.png) no-repeat
+          width: 87px
+          height: 87px
+          position: absolute
+          left: 0
+          top: 0
+          text-indent: -9999px
+          display: block
+        h2
+        .price
+          font-weight: bold
+          font-size: 34px
+          display: block
+          background: url(../images/en/kuchikomi.png) no-repeat 50px top
+          height: 92px
+          text-indent: -9999px
+          margin: 0 0 20px 0
+        .description
+          background: #fcf5bb
+          padding: 12px 18px
+          +border-radius(4px)
+          border: #f8ec88 solid 1px
+          h3
+            float: left
+            margin: 0 0 6px 0
+            font-weight: bold
+            font-size: 16px
+          p
+            clear: both
+            color: #595852
+      .enterprise_plan
+        +clearfix
+        h2
+          border: #073A60 solid 1px
+          +box-shadow(rgba(0, 0, 0, .2) 0 1px 3px 1px, rgba(255, 255, 255, .1) 0 1px 2px 2px inset)
+          +border-radius(4px 4px 0px 0px)
+          background-color: rgb(31,113,175)
+          @include filter-gradient(#1f71af, #0f4e7f, vertical)
+          $experimental-support-for-svg: true
+          @include background-image(linear-gradient(top,  rgba(31,113,175,1) 0%,rgba(15,78,127,1) 100%))
+          span
+            display: block
+            font-weight: bold
+            background: url(../images/enterprise_plan_h2.png) no-repeat 10px 0
+            padding: 10px 46px
+            font-size: 18px
+            line-height: 18px
+            color: #fff
+            +text-shadow(#073A60 0 1px 0)
+        .inner
+          +clearfix
+          padding: 18px 26px
+          border-top: #fff 1px solid
+          +border-radius(0px 0px 4px 4px)
+          +box-shadow(rgba(0, 0, 0, .2) 0 1px 3px 1px, rgba(255, 255, 255, 1.0) 0 1px 1px 1px inset)
+          background-color: rgb(249,249,249)
+          @include filter-gradient(#f9f9f9, #f2f2f2, vertical)
+          $experimental-support-for-svg: true
+          @include background-image(linear-gradient(top,  rgba(249,249,249,1) 0%,rgba(242,242,242,1) 100%))
+          .description
+            padding: 0 0 30px 0
+            p
+              font-size: 14px
+          .features
+            padding: 0 0 0 30px
+            margin: 0 0 40px 0
+            h3
+              font-size: 13px
+              font-weight: bold
+              margin: 0 120px 24px 120px
+              padding: 7px 7px 8px 7px
+              text-align: center
+              +border-radius(12px)
+              +text-shadow(#fff 0 1px 1px)
+              +box-shadow(rgba(0, 0, 0, .2) 0 1px 0 0 inset, #fff 0 1px 1px)
+              background-color: rgb(242,242,242)
+              @include filter-gradient(#f2f2f2, #e8e8e8, vertical)
+              $experimental-support-for-svg: true
+              @include background-image(linear-gradient(top, rgba(242,242,242,1) 0%,rgba(232,232,232,1) 100%))
+            ul
+              padding: 0 40px
+              background: url(../images/enterprise_plan.png) no-repeat 650px center
+              li
+                display: block
+                line-height: 1.6
+                margin: 0 0 8px 0
+                font-size: 13px
+                padding: 0 0 0 13px
+                background: url(../images/enterprise_plan_li.png) no-repeat 0 8px
+          .inquiry
+            clear: both
+            position: relative
+            background: rgba(255, 255, 255, .6)
+            padding: 12px 12px 6px 12px
+            +border-radius(4px)
+            +box-shadow(rgba(0, 0, 0, .2) 0 1px 1px 0 inset)
+            +clearfix
+            p.image
+              float: left
+              padding: 0 20px 0 0
+            .contacts
+              float: left
+              width: 660px
+              h3
+                font-size: 16px
+                font-weight: bold
+                margin: 0 0 12px 0
+              ul
+                li
+                  display: block
+                  line-height: 1.5
+                  margin: 0 0 4px 0
+                  font-size: 13px
+                  +clearfix
+                  h4
+                    display: inline
+                  p
+                    display: inline
+                li.form_button
+                  a
+                    position: absolute
+                    +text-shadow(#155a90 0 -1px 0)
+                    display: block
+                    bottom: 12px
+                    right: 12px
+                    color: #fff
+                    text-decoration: none
+                    border: #10427C solid 1px
+                    padding: 6px 12px
+                    +opacity_link
+                    +border-radius(3px)
+                    background-color: rgb(75,145,198)
+                    @include filter-gradient(#4b91c6, #1e5799, vertical)
+                    $experimental-support-for-svg: true
+                    @include background-image(linear-gradient(top,  rgba(75,145,198,1) 0%,rgba(30,87,153,1) 100%))
+body#en
+  #communites
+    .contents
+      h1
+        background: url(../images/en/communites_h1.png) no-repeat
+      p
+        font-size: 14px
+        line-height: 1.3
+      .sns
+        clear: both
+        margin: 30px 0 10px 0
+        +clearfix
+        li
+          display: block
+          width: 225px
+          float: left
+          padding: 0 0 20px 0
+          a
+            img
+              float: left
+              margin: 0 10px 0 0
+          h2
+            margin: 0 0 6px 0
+            a
+              font-size: 13px
+              font-weight: bold
+          p
+            font-size: 12px
+            line-height: 1.3
+        li.two
+          padding: 0 20px 20px 20px
+        li.three
+          padding: 0 20px 20px 0
+  
+      .developers
+        padding: 10px 0 0 14px
+        border: #89c25b solid 4px
+        background: rgba(255, 255, 255, .4)
+        +border-radius(8px)
+        +clearfix
+        float: left
+        margin: 0 0 20px 0
+        li
+          width: 180px
+          float: left
+          h3
+            margin: 0 0 6px 0
+        h2
+          margin: 0 0 8px 0
+          font-weight: bold
+          font-size: 14px
+        p
+          font-size: 12px
+          margin: 0 0 12px 0
+      .api
+        h2
+          margin: 0 0 8px 0
+          font-weight: bold
+          font-size: 14px
+        p
+          margin: 0 0 14px 0
+          font-size: 13px
+          line-height: 1.4
+body#en
+  #inquiry
+    .contents
+      h1
+        background: url(../images/en/inquiry_h1.png) no-repeat
+        height: 42px
+        text-indent: -9999px
+        margin: 0 0 20px 0
+      iframe
+        margin: 0 0 0 60px
+body#en
+  #company
+    background: url(../images/bg_cream.gif) #f8f8ee
+    padding: 50px 0
+    +clearfix
+    .contents
+      +clearfix
+      h1
+        background: url(../images/en/company_h1.png) no-repeat
+        height: 42px
+        text-indent: -9999px
+        margin: 0 0 20px 0
+      p
+        line-height: 1.6
+        font-size: 13px
+      .description
+        +clearfix
+        padding: 0 0 40px 0
+        width: 500px
+        float: left
+        .logo
+          margin: 0 0 20px 0
+        .text
+          p
+            font-size: 14px
+      .members
+        float: left
+        +clearfix
+        padding: 0 0 30px 30px
+        li
+          display: block
+          float: left
+          width: 140px
+          padding: 0 20px 0 0
+          text-align: center
+          h2
+            font-size: 12px
+            margin: 0 0 2px 0
+          .image
+            display: block
+            height: 100px
+            width: 100px
+            padding: 5px
+            +border-radius(55px)
+            background: rgba(0, 0, 0, .1)
+            margin: 0 auto 8px auto
+            +box-shadow(#fff 0 1px 1px 0, rgba(0, 0, 0, .1) 0 1px 0 inset)
+            img
+              +border-radius(50px)
+              width: 100px
+              height: auto
+      .why
+        clear: both
+        width: 600px
+        h2
+          font-size: 14px
+          display: block
+          float: left
+          +border-radius(14px)
+          background: rgba(159, 116, 32, 0.6)
+          +box-shadow(rgba(0, 0, 0, .2)0 1px 0 inset)
+          +text-shadow(rgba(0, 0, 0, .2)0 1px 0)
+          color: #fff
+          padding: 6px 0
+          width: 320px
+          text-align: center
+          font-weight: normal
+          margin: 0 0 20px 0
+        p
+          clear: both
+          margin-bottom: 40px

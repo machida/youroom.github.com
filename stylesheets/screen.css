@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,56 +25,56 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 20, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 body {
   line-height: 1;
 }
 
-/* line 22, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 24, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 26, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 28, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 101, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 101, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 30, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 114, /Users/kuranuki/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 114, ../../../.rvm/gems/ruby-1.9.2-p290@global/gems/compass-0.12.1/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
 
-/* line 5, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 5, ../sass/global_nav.sass */
 #main-nav-holder {
   height: 50px;
   overflow: hidden;
 }
 
-/* line 10, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 10, ../sass/global_nav.sass */
 #main-nav ul {
   margin: 0 auto 30px auto;
   height: 50px;
@@ -91,46 +91,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   z-index: 100;
   position: relative;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #main-nav ul:before, #main-nav ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #main-nav ul:after {
   clear: both;
 }
-/* line 23, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 23, ../sass/global_nav.sass */
 #main-nav li {
   display: inline;
   padding: 0 15px;
   border-left: 1px solid #555555;
 }
-/* line 27, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 27, ../sass/global_nav.sass */
 #main-nav li:first-child {
   border-left: 0;
 }
-/* line 29, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 29, ../sass/global_nav.sass */
 #main-nav li a {
   color: white;
   text-decoration: none;
 }
 
-/* line 33, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 33, ../sass/global_nav.sass */
 .sticky #main-nav {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
 }
-/* line 38, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 38, ../sass/global_nav.sass */
 .sticky #main-nav ul {
   margin: 0 auto;
 }
 
-/* line 41, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 41, ../sass/global_nav.sass */
 .top {
   position: fixed;
   right: 15px;
@@ -151,7 +151,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-radius: 10px;
   behavior: url(../PIE.htc);
 }
-/* line 60, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 60, ../sass/global_nav.sass */
 .top:before {
   position: absolute;
   top: 11px;
@@ -161,94 +161,94 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   border-left: 11px solid transparent;
   border-right: 11px solid transparent;
 }
-/* line 68, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 68, ../sass/global_nav.sass */
 .top:hover {
   color: #eeeeee;
 }
-/* line 70, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 70, ../sass/global_nav.sass */
 .top:hover:before {
   border-bottom-color: #eeeeee;
 }
 
-/* line 73, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 73, ../sass/global_nav.sass */
 .opacity .top {
   opacity: 1;
   -webkit-transition: opacity 700ms linear;
   -moz-transition: opacity 700ms linear;
   transition: opacity 700ms linear;
 }
-/* line 78, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 78, ../sass/global_nav.sass */
 .opacity .top.hidden {
   opacity: 0;
 }
 
-/* line 81, /Users/kuranuki/github/ja.youroom.in/public/sass/global_nav.sass */
+/* line 81, ../sass/global_nav.sass */
 .no-opacity .top.hidden {
   display: none;
 }
 
-/* line 6, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 1, ../sass/basic.sass */
 body {
   font-family: "Lucida Grande", Verdana, Arial, "Hiragino Kaku Gothic Pro", Meiryo, "メイリオ", sans-serif;
   font-size: 13px;
   color: #777777;
 }
 
-/* line 10, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 5, ../sass/basic.sass */
 h2 {
   vertical-align: middle;
 }
 
-/* line 16, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 11, ../sass/basic.sass */
 a:link img, a:visited img {
   opacity: 1;
 }
-/* line 20, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 15, ../sass/basic.sass */
 a:hover img, a:active img {
   opacity: 0.7;
 }
 
-/* line 24, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 19, ../sass/basic.sass */
 section .contents {
   zoom: 1;
   width: 960px;
   margin: 0 auto;
   position: relative;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section .contents:before, section .contents:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section .contents:after {
   clear: both;
 }
-/* line 29, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 24, ../sass/basic.sass */
 section .contents h1 {
   font-size: 24px;
   margin: 0 0 14px 0;
 }
-/* line 57, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 57, ../sass/mixins.sass */
 section .contents a:link, section .contents a:visited {
   text-decoration: underline;
 }
-/* line 60, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 60, ../sass/mixins.sass */
 section .contents a:hover, section .contents a:active {
   text-decoration: none;
 }
-/* line 34, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 29, ../sass/basic.sass */
 section .contents a:link, section .contents a:visited {
   color: #007da7;
 }
-/* line 37, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 32, ../sass/basic.sass */
 section .contents a:hover, section .contents a:active {
   color: #ffa827;
 }
 
-/* line 41, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 36, ../sass/basic.sass */
 header {
   height: 30px;
   padding: 5px 40px;
@@ -266,18 +266,18 @@ header {
   border-bottom: white solid 1px;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 header:before, header:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 header:after {
   clear: both;
 }
-/* line 51, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 46, ../sass/basic.sass */
 header h1 a {
   float: left;
   background-image: url(../images/header_h1.png);
@@ -287,29 +287,29 @@ header h1 a {
   text-indent: -9999px;
   background-repeat: no-repeat;
 }
-/* line 16, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 16, ../sass/mixins.sass */
 header h1 a:link, header h1 a:visited {
   background-position: left top;
 }
-/* line 19, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 19, ../sass/mixins.sass */
 header h1 a:hover, header h1 a:active {
   background-position: left bottom;
 }
-/* line 57, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 52, ../sass/basic.sass */
 header .social_buttons {
   float: left;
   padding: 5px 20px;
 }
-/* line 60, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 55, ../sass/basic.sass */
 header .social_buttons li {
   float: left;
 }
-/* line 62, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 57, ../sass/basic.sass */
 header nav {
   float: right;
   padding: 2px 0 0 0;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 62, ../sass/basic.sass */
 header nav ul li a {
   display: block;
   text-shadow: #126173 0 -1px 0;
@@ -342,15 +342,15 @@ header nav ul li a {
   border-radius: 6px;
   position: relative;
 }
-/* line 64, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 header nav ul li a:link, header nav ul li a:visited {
   opacity: 1;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 header nav ul li a:hover, header nav ul li a:active {
   opacity: 0.7;
 }
-/* line 77, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 72, ../sass/basic.sass */
 header nav ul li a span {
   display: block;
   position: absolute;
@@ -367,35 +367,35 @@ header nav ul li a span {
   border-radius: 9px;
 }
 
-/* line 88, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 83, ../sass/basic.sass */
 .link {
   height: 50px;
   clear: both;
 }
 
-/* line 92, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 87, ../sass/basic.sass */
 section#movie {
   background: url(../images/bg_cream.gif) #f8f8ee;
   padding: 30px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#movie:before, section#movie:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#movie:after {
   clear: both;
 }
-/* line 97, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 92, ../sass/basic.sass */
 section#movie .contents hgroup {
   width: 250px;
   float: left;
 }
-/* line 100, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 95, ../sass/basic.sass */
 section#movie .contents hgroup h1 {
   display: block;
   background: url(../images/movie_hgroup_h1.png) no-repeat;
@@ -403,30 +403,30 @@ section#movie .contents hgroup h1 {
   text-indent: -9999px;
   margin: 0 0 12px 0;
 }
-/* line 106, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 101, ../sass/basic.sass */
 section#movie .contents hgroup h2 {
   display: block;
   background: url(../images/movie_hgroup_h2.png) no-repeat;
   height: 62px;
   text-indent: -9999px;
 }
-/* line 111, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 106, ../sass/basic.sass */
 section#movie .contents hgroup h3 {
   font-weight: bold;
   font-size: 18px;
   padding-top: 20px;
   line-height: 1.6;
 }
-/* line 116, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 111, ../sass/basic.sass */
 section#movie .contents hgroup p {
   color: #333330;
 }
-/* line 118, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 113, ../sass/basic.sass */
 section#movie .contents hgroup .sign_up {
   margin-top: 40px;
   padding: 24px 0 0 0;
 }
-/* line 121, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 116, ../sass/basic.sass */
 section#movie .contents hgroup .sign_up a {
   position: relative;
   padding: 0 0 0 58px;
@@ -459,15 +459,15 @@ section#movie .contents hgroup .sign_up a {
   background-image: -ms-linear-gradient(top, #31bad8 0%, #237f93 100%);
   background-image: linear-gradient(top, #31bad8 0%, #237f93 100%);
 }
-/* line 64, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 section#movie .contents hgroup .sign_up a:link, section#movie .contents hgroup .sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 section#movie .contents hgroup .sign_up a:hover, section#movie .contents hgroup .sign_up a:active {
   opacity: 0.7;
 }
-/* line 131, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 126, ../sass/basic.sass */
 section#movie .contents hgroup .sign_up a span {
   display: block;
   height: 38px;
@@ -498,13 +498,13 @@ section#movie .contents hgroup .sign_up a span {
   background-image: -ms-linear-gradient(top, #055e72 0%, #023844 100%);
   background-image: linear-gradient(top, #055e72 0%, #023844 100%);
 }
-/* line 148, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 143, ../sass/basic.sass */
 section#movie .contents hgroup p {
   font-size: 11px;
   text-align: center;
   padding: 12px 0 0 0;
 }
-/* line 152, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 147, ../sass/basic.sass */
 section#movie .contents .movie {
   width: 640px;
   background: rgba(0, 0, 0, 0.4);
@@ -517,57 +517,57 @@ section#movie .contents .movie {
   border-radius: 4px;
 }
 
-/* line 159, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 154, ../sass/basic.sass */
 section#about {
   background: url(../images/bg_cream.gif) #f8f8ee;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about:before, section#about:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about:after {
   clear: both;
 }
-/* line 162, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 157, ../sass/basic.sass */
 section#about .contents {
   padding: 0 0 40px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents:before, section#about .contents:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents:after {
   clear: both;
 }
-/* line 165, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 160, ../sass/basic.sass */
 section#about .contents .description {
   zoom: 1;
   padding: 0 0 30px 0;
   width: 740px;
   margin: 0 auto;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents .description:before, section#about .contents .description:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents .description:after {
   clear: both;
 }
-/* line 170, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 165, ../sass/basic.sass */
 section#about .contents .description h1 {
   background: url(../images/about_h1.png);
   width: 322px;
@@ -576,39 +576,39 @@ section#about .contents .description h1 {
   margin: 0 auto 20px auto;
   text-indent: -9999px;
 }
-/* line 177, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 172, ../sass/basic.sass */
 section#about .contents .description p {
   line-height: 1.6;
   margin: 0 0 20px 0;
   font-size: 15px;
 }
-/* line 181, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 176, ../sass/basic.sass */
 section#about .contents .description p strong {
   font-weight: bold;
 }
-/* line 184, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 179, ../sass/basic.sass */
 section#about .contents .problems {
   zoom: 1;
   padding: 0 0 30px 0;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents .problems:before, section#about .contents .problems:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents .problems:after {
   clear: both;
 }
-/* line 187, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 182, ../sass/basic.sass */
 section#about .contents .problems p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 75, ../sass/mixins.sass */
 section#about .contents .problems p.sign_up a {
   display: block;
   text-decoration: none;
@@ -642,21 +642,21 @@ section#about .contents .problems p.sign_up a {
   background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 section#about .contents .problems p.sign_up a:link, section#about .contents .problems p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 section#about .contents .problems p.sign_up a:hover, section#about .contents .problems p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 95, ../sass/mixins.sass */
 section#about .contents .problems p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 99, ../sass/mixins.sass */
 section#about .contents .problems p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -677,24 +677,24 @@ section#about .contents .problems p.sign_up a span.free {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 189, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 184, ../sass/basic.sass */
 section#about .contents .problems .with_no_waste {
   clear: both;
   padding: 50px 0 30px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents .problems .with_no_waste:before, section#about .contents .problems .with_no_waste:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents .problems .with_no_waste:after {
   clear: both;
 }
-/* line 193, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 188, ../sass/basic.sass */
 section#about .contents .problems .problem {
   float: left;
   width: 420px;
@@ -702,24 +702,24 @@ section#about .contents .problems .problem {
   padding: 0 50px 0 0;
   background: url(../images/problem.png) no-repeat right 70px;
 }
-/* line 199, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 194, ../sass/basic.sass */
 section#about .contents .problems .problem h2 {
   height: 83px;
   display: block;
   text-indent: -9999px;
 }
-/* line 203, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 198, ../sass/basic.sass */
 section#about .contents .problems .problem p {
   font-size: 13px;
   line-height: 1.6;
   margin-bottom: 10px;
 }
-/* line 207, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 202, ../sass/basic.sass */
 section#about .contents .problems .solution {
   float: right;
   width: 480px;
 }
-/* line 210, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 205, ../sass/basic.sass */
 section#about .contents .problems .solution h3 {
   padding: 6px 14px 5px 14px;
   border: #89c25b solid 1px;
@@ -740,14 +740,14 @@ section#about .contents .problems .solution h3 {
   background-image: -ms-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
   background-image: linear-gradient(top, #9ad36b 0%, #89c25b 100%);
 }
-/* line 218, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 213, ../sass/basic.sass */
 section#about .contents .problems .solution h3 span {
   background: url(../images/solution_h3.png) no-repeat left top;
   height: 28px;
   display: block;
   text-indent: -9999px;
 }
-/* line 223, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 218, ../sass/basic.sass */
 section#about .contents .problems .solution .body {
   border-bottom: #89c25b solid 5px;
   border-left: #89c25b solid 5px;
@@ -762,37 +762,37 @@ section#about .contents .problems .solution .body {
   background: rgba(255, 255, 255, 0.8);
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents .problems .solution .body:before, section#about .contents .problems .solution .body:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents .problems .solution .body:after {
   clear: both;
 }
-/* line 232, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 227, ../sass/basic.sass */
 section#about .contents .problems .solution .body p {
   line-height: 1.6;
   font-size: 13px;
   margin: 0 0 1.4em 0;
 }
-/* line 237, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 232, ../sass/basic.sass */
 section#about .contents .problems .solution .body a img {
   margin: 0 0 10px 16px;
   float: right;
 }
-/* line 241, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 236, ../sass/basic.sass */
 section#about .contents .problems .high-speed h2 {
   background: url(../images/high-speed_h2.png) no-repeat center top;
 }
-/* line 244, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 239, ../sass/basic.sass */
 section#about .contents .problems .with_no_waste h2 {
   background: url(../images/with_no_waste_h2.png) no-repeat center top;
 }
-/* line 246, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 241, ../sass/basic.sass */
 section#about .contents .anytime_anywhere {
   clear: both;
   width: 730px;
@@ -807,12 +807,12 @@ section#about .contents .anytime_anywhere {
   margin: 0 auto;
   margin-bottom: 20px;
 }
-/* line 255, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 250, ../sass/basic.sass */
 section#about .contents .anytime_anywhere .inner {
   padding: 0 260px 0 0;
   background: url(../images/anytime_anywhere.png) no-repeat right bottom;
 }
-/* line 258, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 253, ../sass/basic.sass */
 section#about .contents .anytime_anywhere .inner h2 {
   font-size: 20px;
   font-weight: bold;
@@ -823,7 +823,7 @@ section#about .contents .anytime_anywhere .inner h2 {
   padding: 0 0 0 42px;
   text-shadow: white 0 1px 0;
 }
-/* line 267, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 262, ../sass/basic.sass */
 section#about .contents .anytime_anywhere .inner p {
   line-height: 1.6;
   display: block;
@@ -831,87 +831,87 @@ section#about .contents .anytime_anywhere .inner p {
   color: #5c5845;
   margin-bottom: 7px;
 }
-/* line 273, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 268, ../sass/basic.sass */
 section#about .contents .usage {
   border: #abd628 solid 6px;
   margin-bottom: 40px;
 }
-/* line 276, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 271, ../sass/basic.sass */
 section#about .contents .usage .inner {
   background: none;
   padding: 0;
 }
-/* line 279, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 274, ../sass/basic.sass */
 section#about .contents .usage .inner h2 {
   background: none;
   padding: 0;
   color: #007d64;
 }
-/* line 283, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 278, ../sass/basic.sass */
 section#about .contents .functions, section#about .contents .terms {
   clear: both;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents .functions:before, section#about .contents .functions:after, section#about .contents .terms:before, section#about .contents .terms:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents .functions:after, section#about .contents .terms:after {
   clear: both;
 }
-/* line 286, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 281, ../sass/basic.sass */
 section#about .contents .functions h2, section#about .contents .terms h2 {
   font-size: 22px;
   display: block;
   margin: 0 0 16px 0;
   font-weight: bold;
 }
-/* line 291, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 286, ../sass/basic.sass */
 section#about .contents .functions h2 span, section#about .contents .terms h2 span {
   font-size: 12px;
   font-weight: normal;
   margin: 0 0 0 10px;
 }
-/* line 296, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 291, ../sass/basic.sass */
 section#about .contents .functions .description p, section#about .contents .terms .description p {
   display: block;
   margin: 0 0 18px 0;
 }
-/* line 299, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 294, ../sass/basic.sass */
 section#about .contents .functions ul, section#about .contents .terms ul {
   zoom: 1;
   width: 100%;
   float: left;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#about .contents .functions ul:before, section#about .contents .functions ul:after, section#about .contents .terms ul:before, section#about .contents .terms ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#about .contents .functions ul:after, section#about .contents .terms ul:after {
   clear: both;
 }
-/* line 303, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 298, ../sass/basic.sass */
 section#about .contents .functions ul .function, section#about .contents .terms ul .function {
   float: left;
   font-size: 13px;
   width: 280px;
 }
-/* line 307, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 302, ../sass/basic.sass */
 section#about .contents .functions ul .function h3, section#about .contents .terms ul .function h3 {
   font-weight: bold;
   font-size: 13px;
   line-height: 1.6;
   margin: 0 0 10px 0;
 }
-/* line 312, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 307, ../sass/basic.sass */
 section#about .contents .functions ul .function p, section#about .contents .terms ul .function p {
   line-height: 1.6;
   color: #504e0c;
@@ -923,33 +923,33 @@ section#about .contents .functions ul .function p, section#about .contents .term
   -o-border-radius: 6px;
   border-radius: 6px;
 }
-/* line 318, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 313, ../sass/basic.sass */
 section#about .contents .functions ul .function p a, section#about .contents .terms ul .function p a {
   font-weight: bold;
 }
-/* line 321, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 316, ../sass/basic.sass */
 section#about .contents .functions ul .function .image img, section#about .contents .terms ul .function .image img {
   display: block;
   margin: 14px auto 0 auto;
 }
-/* line 324, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 319, ../sass/basic.sass */
 section#about .contents .functions ul .center, section#about .contents .terms ul .center {
   border-left: white solid 1px;
   border-right: #eae3ce solid 1px;
   padding: 15px;
 }
-/* line 328, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 323, ../sass/basic.sass */
 section#about .contents .functions ul .left, section#about .contents .terms ul .left {
   border-right: #eae3ce solid 1px;
   padding: 15px 15px 15px 0;
 }
-/* line 331, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 326, ../sass/basic.sass */
 section#about .contents .functions ul .right, section#about .contents .terms ul .right {
   border-left: white solid 1px;
   padding: 15px 0 15px 15px;
 }
 
-/* line 335, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 330, ../sass/basic.sass */
 section#faq {
   background: url(../images/texture.png) #446709;
   padding: 50px 0;
@@ -959,18 +959,18 @@ section#faq {
   box-shadow: rgba(0, 0, 0, 0.2) 0 3px 3px 1px inset;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#faq:before, section#faq:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#faq:after {
   clear: both;
 }
-/* line 342, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 337, ../sass/basic.sass */
 section#faq .contents h1 {
   color: white;
   font-weight: bold;
@@ -979,25 +979,25 @@ section#faq .contents h1 {
   height: 42px;
   text-indent: -9999px;
 }
-/* line 350, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 345, ../sass/basic.sass */
 section#faq .contents ul li.faq {
   display: block;
   padding: 0 0 28px 0;
   clear: both;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 section#faq .contents ul li.faq:before, section#faq .contents ul li.faq:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 section#faq .contents ul li.faq:after {
   clear: both;
 }
-/* line 355, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 350, ../sass/basic.sass */
 section#faq .contents ul li.faq h2 {
   font-size: 20px;
   float: left;
@@ -1010,13 +1010,13 @@ section#faq .contents ul li.faq h2 {
   padding: 0 0 0 74px;
   color: #f1fdac;
 }
-/* line 366, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 361, ../sass/basic.sass */
 section#faq .contents ul li.faq h2 span {
   display: block;
   padding: 0 0 30px 0;
   background: url(../images/faq_h2_span.gif) no-repeat right bottom;
 }
-/* line 370, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 365, ../sass/basic.sass */
 section#faq .contents ul li.faq p {
   float: right;
   width: 510px;
@@ -1037,48 +1037,48 @@ section#faq .contents ul li.faq p {
   background: url(../images/faq_a.png) no-repeat 12px 14px, #345104;
 }
 
-/* line 384, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 379, ../sass/basic.sass */
 #voices_senes {
   background: url(../images/bg_cream.gif) #f8f8ee;
   border-top: white solid 1px;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes:before, #voices_senes:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes:after {
   clear: both;
 }
-/* line 388, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 383, ../sass/basic.sass */
 #voices_senes .contents {
   padding: 50px 0;
 }
-/* line 390, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 385, ../sass/basic.sass */
 #voices_senes .contents h1 {
   background: url(../images/voices_senes_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 40px 0;
 }
-/* line 395, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 390, ../sass/basic.sass */
 #voices_senes .contents h2 {
   font-size: 22px;
   display: block;
   margin: 0 0 16px 0;
   font-weight: bold;
 }
-/* line 400, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 395, ../sass/basic.sass */
 #voices_senes .contents p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 75, ../sass/mixins.sass */
 #voices_senes .contents p.sign_up a {
   display: block;
   text-decoration: none;
@@ -1112,21 +1112,21 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 #voices_senes .contents p.sign_up a:link, #voices_senes .contents p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 #voices_senes .contents p.sign_up a:hover, #voices_senes .contents p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 95, ../sass/mixins.sass */
 #voices_senes .contents p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 99, ../sass/mixins.sass */
 #voices_senes .contents p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -1147,29 +1147,29 @@ section#faq .contents ul li.faq p {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 402, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 397, ../sass/basic.sass */
 #voices_senes .contents .voices {
   padding: 0 0 40px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes .contents .voices:before, #voices_senes .contents .voices:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes .contents .voices:after {
   clear: both;
 }
-/* line 405, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 400, ../sass/basic.sass */
 #voices_senes .contents .voices .voice {
   float: left;
   width: 310px;
   font-size: 12px;
 }
-/* line 409, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 404, ../sass/basic.sass */
 #voices_senes .contents .voices .voice p {
   background: url("../images/voices_p.gif") no-repeat left top;
   margin: 6px 40px 0 0;
@@ -1182,30 +1182,30 @@ section#faq .contents ul li.faq p {
   border-radius: 6px;
   padding: 29px 0 20px 20px;
 }
-/* line 416, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 411, ../sass/basic.sass */
 #voices_senes .contents .voices .voice p span {
   display: block;
 }
-/* line 418, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 413, ../sass/basic.sass */
 #voices_senes .contents .voices .voice p .name {
   font-size: 14px;
   font-weight: bold;
 }
-/* line 421, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 416, ../sass/basic.sass */
 #voices_senes .contents .voices .voice p.message {
   background: none;
   background-color: white;
   padding: 20px;
 }
-/* line 425, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 420, ../sass/basic.sass */
 #voices_senes .contents .voices .center {
   margin: 0 10px;
 }
-/* line 427, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 422, ../sass/basic.sass */
 #voices_senes .contents .companies {
   padding: 0 0 30px 0;
 }
-/* line 429, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 424, ../sass/basic.sass */
 #voices_senes .contents .companies h2 {
   font-size: 14px;
   display: block;
@@ -1226,46 +1226,46 @@ section#faq .contents ul li.faq p {
   text-align: center;
   font-weight: normal;
 }
-/* line 442, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 437, ../sass/basic.sass */
 #voices_senes .contents .companies ul {
   zoom: 1;
   clear: both;
   padding: 0 0 20px 0;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes .contents .companies ul:before, #voices_senes .contents .companies ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes .contents .companies ul:after {
   clear: both;
 }
-/* line 446, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 441, ../sass/basic.sass */
 #voices_senes .contents .companies ul li.company {
   float: left;
   display: block;
   padding: 0 5px;
 }
-/* line 451, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 446, ../sass/basic.sass */
 #voices_senes .contents .medias {
   zoom: 1;
   margin: 0 0 30px 0;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes .contents .medias:before, #voices_senes .contents .medias:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes .contents .medias:after {
   clear: both;
 }
-/* line 454, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 449, ../sass/basic.sass */
 #voices_senes .contents .medias h2 {
   font-size: 14px;
   display: block;
@@ -1286,119 +1286,119 @@ section#faq .contents ul li.faq p {
   text-align: center;
   font-weight: normal;
 }
-/* line 467, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 462, ../sass/basic.sass */
 #voices_senes .contents .medias ul {
   zoom: 1;
   clear: both;
   padding: 0 0 20px 40px;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes .contents .medias ul:before, #voices_senes .contents .medias ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes .contents .medias ul:after {
   clear: both;
 }
-/* line 471, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 466, ../sass/basic.sass */
 #voices_senes .contents .medias ul li.media {
   float: left;
   display: block;
   padding: 0 5px;
 }
-/* line 475, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 470, ../sass/basic.sass */
 #voices_senes .contents .senes {
   clear: both;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes .contents .senes:before, #voices_senes .contents .senes:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes .contents .senes:after {
   clear: both;
 }
-/* line 479, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 474, ../sass/basic.sass */
 #voices_senes .contents .senes h2 span {
   font-size: 12px;
   font-weight: normal;
   margin: 0 0 0 10px;
 }
-/* line 484, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 479, ../sass/basic.sass */
 #voices_senes .contents .senes .description p {
   display: block;
   margin: 0 0 18px 0;
 }
-/* line 487, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 482, ../sass/basic.sass */
 #voices_senes .contents .senes ul {
   zoom: 1;
   width: 100%;
   float: left;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #voices_senes .contents .senes ul:before, #voices_senes .contents .senes ul:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #voices_senes .contents .senes ul:after {
   clear: both;
 }
-/* line 491, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 486, ../sass/basic.sass */
 #voices_senes .contents .senes ul .scene {
   float: left;
   font-size: 13px;
   width: 280px;
   height: 300px;
 }
-/* line 496, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 491, ../sass/basic.sass */
 #voices_senes .contents .senes ul .scene h3 {
   font-weight: bold;
   font-size: 13px;
   line-height: 1.6;
   margin: 0 0 10px 0;
 }
-/* line 501, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 496, ../sass/basic.sass */
 #voices_senes .contents .senes ul .scene p {
   line-height: 1.6;
   color: #504e0c;
 }
-/* line 504, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 499, ../sass/basic.sass */
 #voices_senes .contents .senes ul .scene p a {
   font-weight: bold;
 }
-/* line 507, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 502, ../sass/basic.sass */
 #voices_senes .contents .senes ul .scene .image img {
   display: block;
   margin: 14px auto 0 auto;
 }
-/* line 510, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 505, ../sass/basic.sass */
 #voices_senes .contents .senes ul .center {
   border-left: white solid 1px;
   border-right: #eae3ce solid 1px;
   padding: 15px;
 }
-/* line 514, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 509, ../sass/basic.sass */
 #voices_senes .contents .senes ul .left {
   border-right: #eae3ce solid 1px;
   padding: 15px 15px 15px 0;
 }
-/* line 517, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 512, ../sass/basic.sass */
 #voices_senes .contents .senes ul .right {
   border-left: white solid 1px;
   padding: 15px 0 15px 15px;
 }
 
-/* line 521, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 516, ../sass/basic.sass */
 #pricing {
   background: url(../images/pricing.gif);
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px 1px inset;
@@ -1407,39 +1407,39 @@ section#faq .contents ul li.faq p {
   color: #555555;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #pricing:before, #pricing:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #pricing:after {
   clear: both;
 }
-/* line 526, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 521, ../sass/basic.sass */
 #pricing .contents {
   padding: 50px 0;
 }
-/* line 528, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 523, ../sass/basic.sass */
 #pricing .contents h1 {
   background: url(../images/pricing_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 533, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 528, ../sass/basic.sass */
 #pricing .contents p {
   line-height: 1.7;
 }
-/* line 535, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 530, ../sass/basic.sass */
 #pricing .contents p.sign_up {
   line-height: 1.6;
   margin: 0 0 40px 0;
   clear: both;
 }
-/* line 75, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 75, ../sass/mixins.sass */
 #pricing .contents p.sign_up a {
   display: block;
   text-decoration: none;
@@ -1473,21 +1473,21 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
   background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
 }
-/* line 64, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 #pricing .contents p.sign_up a:link, #pricing .contents p.sign_up a:visited {
   opacity: 1;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 #pricing .contents p.sign_up a:hover, #pricing .contents p.sign_up a:active {
   opacity: 0.7;
 }
-/* line 95, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 95, ../sass/mixins.sass */
 #pricing .contents p.sign_up a span.whithout_mail {
   display: block;
   font-size: 11px;
   line-height: 1;
 }
-/* line 99, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 99, ../sass/mixins.sass */
 #pricing .contents p.sign_up a span.free {
   display: block;
   font-size: 13px;
@@ -1508,14 +1508,14 @@ section#faq .contents ul li.faq p {
   -o-border-radius: 23px;
   border-radius: 23px;
 }
-/* line 537, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 532, ../sass/basic.sass */
 #pricing .contents .main {
   margin: 0 0 20px 0;
   float: left;
   width: 480px;
   font-size: 13px;
 }
-/* line 542, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 537, ../sass/basic.sass */
 #pricing .contents .campaign {
   padding: 12px;
   float: right;
@@ -1530,13 +1530,13 @@ section#faq .contents ul li.faq p {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 551, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 546, ../sass/basic.sass */
 #pricing .contents .campaign h2 {
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 8px 0;
 }
-/* line 555, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 550, ../sass/basic.sass */
 #pricing .contents .premium_plan {
   padding: 12px;
   float: right;
@@ -1551,23 +1551,23 @@ section#faq .contents ul li.faq p {
   -o-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 564, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 559, ../sass/basic.sass */
 #pricing .contents .premium_plan h2 {
   font-weight: bold;
   font-size: 16px;
   margin: 0 0 8px 0;
 }
-/* line 568, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 563, ../sass/basic.sass */
 #pricing .contents .premium_plan strong {
   font-weight: bold;
   color: yellow;
   font-size: 14px;
 }
-/* line 572, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 567, ../sass/basic.sass */
 #pricing .contents .premium_plan ul {
   padding: 0 20px;
 }
-/* line 574, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 569, ../sass/basic.sass */
 #pricing .contents .premium_plan ul li {
   display: block;
   line-height: 1.6;
@@ -1576,7 +1576,7 @@ section#faq .contents ul li.faq p {
   padding: 0 0 0 8px;
   background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
 }
-/* line 581, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 576, ../sass/basic.sass */
 #pricing .contents .fan_plan {
   position: relative;
   clear: both;
@@ -1603,18 +1603,18 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #pricing .contents .fan_plan:before, #pricing .contents .fan_plan:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #pricing .contents .fan_plan:after {
   clear: both;
 }
-/* line 593, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 588, ../sass/basic.sass */
 #pricing .contents .fan_plan .recommend {
   background: url(../images/recommend.png) no-repeat;
   width: 87px;
@@ -1625,7 +1625,7 @@ section#faq .contents ul li.faq p {
   text-indent: -9999px;
   display: block;
 }
-/* line 602, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 597, ../sass/basic.sass */
 #pricing .contents .fan_plan h2 {
   font-size: 22px;
   font-weight: bold;
@@ -1634,7 +1634,7 @@ section#faq .contents ul li.faq p {
   color: #666666;
   text-shadow: white 0 1px 0;
 }
-/* line 609, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 604, ../sass/basic.sass */
 #pricing .contents .fan_plan .price {
   font-weight: bold;
   font-size: 34px;
@@ -1644,7 +1644,7 @@ section#faq .contents ul li.faq p {
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 617, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 612, ../sass/basic.sass */
 #pricing .contents .fan_plan .description {
   background: #fcf5bb;
   padding: 12px 18px;
@@ -1655,34 +1655,34 @@ section#faq .contents ul li.faq p {
   border-radius: 4px;
   border: #f8ec88 solid 1px;
 }
-/* line 622, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 617, ../sass/basic.sass */
 #pricing .contents .fan_plan .description h3 {
   float: left;
   margin: 0 0 6px 0;
   font-weight: bold;
   font-size: 16px;
 }
-/* line 627, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 622, ../sass/basic.sass */
 #pricing .contents .fan_plan .description p {
   clear: both;
   color: #595852;
 }
-/* line 630, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 625, ../sass/basic.sass */
 #pricing .contents .enterprise_plan {
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan:before, #pricing .contents .enterprise_plan:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan:after {
   clear: both;
 }
-/* line 632, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 627, ../sass/basic.sass */
 #pricing .contents .enterprise_plan h2 {
   border: #073a60 solid 1px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, rgba(255, 255, 255, 0.1) 0 1px 2px 2px inset;
@@ -1705,7 +1705,7 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
   background-image: linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
 }
-/* line 640, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 635, ../sass/basic.sass */
 #pricing .contents .enterprise_plan h2 span {
   display: block;
   font-weight: bold;
@@ -1716,7 +1716,7 @@ section#faq .contents ul li.faq p {
   color: white;
   text-shadow: #073a60 0 1px 0;
 }
-/* line 649, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 644, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner {
   zoom: 1;
   padding: 18px 26px;
@@ -1741,31 +1741,31 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
   background-image: linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner:before, #pricing .contents .enterprise_plan .inner:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner:after {
   clear: both;
 }
-/* line 659, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 654, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .description {
   padding: 0 0 30px 0;
 }
-/* line 661, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 656, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .description p {
   font-size: 14px;
 }
-/* line 663, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 658, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .features {
   padding: 0 0 0 30px;
   margin: 0 0 40px 0;
 }
-/* line 666, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 661, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .features h3 {
   font-size: 13px;
   font-weight: bold;
@@ -1793,12 +1793,12 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
   background-image: linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
 }
-/* line 679, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 674, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .features ul {
   padding: 0 40px;
   background: url(../images/enterprise_plan.png) no-repeat 650px center;
 }
-/* line 682, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 677, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .features ul li {
   display: block;
   line-height: 1.6;
@@ -1807,7 +1807,7 @@ section#faq .contents ul li.faq p {
   padding: 0 0 0 13px;
   background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
 }
-/* line 689, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 684, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry {
   clear: both;
   position: relative;
@@ -1823,34 +1823,34 @@ section#faq .contents ul li.faq p {
   box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px 0 inset;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner .inquiry:before, #pricing .contents .enterprise_plan .inner .inquiry:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner .inquiry:after {
   clear: both;
 }
-/* line 697, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 692, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry p.image {
   float: left;
   padding: 0 20px 0 0;
 }
-/* line 700, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 695, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts {
   float: left;
   width: 660px;
 }
-/* line 703, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 698, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts h3 {
   font-size: 16px;
   font-weight: bold;
   margin: 0 0 12px 0;
 }
-/* line 708, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 703, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li {
   display: block;
   line-height: 1.5;
@@ -1858,26 +1858,26 @@ section#faq .contents ul li.faq p {
   font-size: 13px;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:before, #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
   clear: both;
 }
-/* line 714, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 709, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li h4 {
   display: inline;
 }
-/* line 716, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 711, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li p {
   display: inline;
 }
-/* line 719, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 714, ../sass/basic.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a {
   position: absolute;
   text-shadow: #155a90 0 -1px 0;
@@ -1905,111 +1905,111 @@ section#faq .contents ul li.faq p {
   background-image: -ms-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
   background-image: linear-gradient(top, #4b91c6 0%, #1e5799 100%);
 }
-/* line 64, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 64, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:link, #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:visited {
   opacity: 1;
 }
-/* line 67, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 67, ../sass/mixins.sass */
 #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:hover, #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:active {
   opacity: 0.7;
 }
 
-/* line 736, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 731, ../sass/basic.sass */
 #communites {
   background: url(../images/bg_cream.gif) #f8f8ee;
   padding: 50px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #communites:before, #communites:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #communites:after {
   clear: both;
 }
-/* line 740, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 735, ../sass/basic.sass */
 #communites .contents {
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #communites .contents:before, #communites .contents:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #communites .contents:after {
   clear: both;
 }
-/* line 742, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 737, ../sass/basic.sass */
 #communites .contents h1 {
   background: url(../images/communites_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 747, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 742, ../sass/basic.sass */
 #communites .contents p {
   font-size: 14px;
   line-height: 1.5;
 }
-/* line 750, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 745, ../sass/basic.sass */
 #communites .contents .sns {
   clear: both;
   margin: 20px 0 10px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #communites .contents .sns:before, #communites .contents .sns:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #communites .contents .sns:after {
   clear: both;
 }
-/* line 754, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 749, ../sass/basic.sass */
 #communites .contents .sns li {
   display: block;
   width: 225px;
   float: left;
   padding: 0 0 20px 0;
 }
-/* line 760, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 755, ../sass/basic.sass */
 #communites .contents .sns li a img {
   float: left;
   margin: 0 10px 0 0;
 }
-/* line 763, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 758, ../sass/basic.sass */
 #communites .contents .sns li h2 {
   margin: 0 0 6px 0;
 }
-/* line 765, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 760, ../sass/basic.sass */
 #communites .contents .sns li h2 a {
   font-size: 13px;
   font-weight: bold;
 }
-/* line 768, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 763, ../sass/basic.sass */
 #communites .contents .sns li p {
   font-size: 12px;
   line-height: 1.5;
 }
-/* line 771, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 766, ../sass/basic.sass */
 #communites .contents .sns li.two {
   padding: 0 20px 20px 20px;
 }
-/* line 773, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 768, ../sass/basic.sass */
 #communites .contents .sns li.three {
   padding: 0 20px 20px 0;
 }
-/* line 776, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 771, ../sass/basic.sass */
 #communites .contents .developers {
   padding: 10px 0 0 14px;
   border: #89c25b solid 4px;
@@ -2023,43 +2023,43 @@ section#faq .contents ul li.faq p {
   float: left;
   margin: 0 0 20px 0;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #communites .contents .developers:before, #communites .contents .developers:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #communites .contents .developers:after {
   clear: both;
 }
-/* line 784, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 779, ../sass/basic.sass */
 #communites .contents .developers li {
   width: 180px;
   float: left;
 }
-/* line 788, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 783, ../sass/basic.sass */
 #communites .contents .developers li a img {
   float: left;
   margin: 0 8px 0 0;
 }
-/* line 791, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 786, ../sass/basic.sass */
 #communites .contents .developers li h3 {
   margin: 0 0 6px 0;
 }
-/* line 793, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 788, ../sass/basic.sass */
 #communites .contents .developers h2 {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 797, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 792, ../sass/basic.sass */
 #communites .contents .developers p {
   font-size: 12px;
   margin: 0 0 8px 0;
 }
-/* line 800, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 795, ../sass/basic.sass */
 #communites .contents .api {
   float: right;
   margin: 0 0 20px 0;
@@ -2067,20 +2067,20 @@ section#faq .contents ul li.faq p {
   padding: 0 100px 0 0;
   background: url(../images/api.png) no-repeat right bottom;
 }
-/* line 806, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 801, ../sass/basic.sass */
 #communites .contents .api h2 {
   margin: 0 0 8px 0;
   font-weight: bold;
   font-size: 14px;
 }
-/* line 810, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 805, ../sass/basic.sass */
 #communites .contents .api p {
   margin: 0 0 14px 0;
   font-size: 13px;
   line-height: 1.7;
 }
 
-/* line 815, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 810, ../sass/basic.sass */
 #inquiry {
   padding: 50px 0;
   background: #f4f4f4;
@@ -2089,117 +2089,117 @@ section#faq .contents ul li.faq p {
   box-shadow: rgba(0, 0, 0, 0.1) 0 1px 2px 1px inset;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #inquiry:before, #inquiry:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #inquiry:after {
   clear: both;
 }
-/* line 821, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 816, ../sass/basic.sass */
 #inquiry .contents h1 {
   background: url(../images/inquiry_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 826, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 821, ../sass/basic.sass */
 #inquiry .contents iframe {
   margin: 0 0 0 60px;
 }
 
-/* line 829, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 824, ../sass/basic.sass */
 #company {
   background: url(../images/bg_cream.gif) #f8f8ee;
   padding: 50px 0;
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #company:before, #company:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #company:after {
   clear: both;
 }
-/* line 833, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 828, ../sass/basic.sass */
 #company .contents {
   zoom: 1;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #company .contents:before, #company .contents:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #company .contents:after {
   clear: both;
 }
-/* line 835, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 830, ../sass/basic.sass */
 #company .contents h1 {
   background: url(../images/company_h1.png) no-repeat;
   height: 42px;
   text-indent: -9999px;
   margin: 0 0 20px 0;
 }
-/* line 840, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 835, ../sass/basic.sass */
 #company .contents p {
   line-height: 1.6;
   font-size: 13px;
 }
-/* line 843, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 838, ../sass/basic.sass */
 #company .contents .description {
   zoom: 1;
   padding: 0 0 40px 0;
   width: 500px;
   float: left;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #company .contents .description:before, #company .contents .description:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #company .contents .description:after {
   clear: both;
 }
-/* line 848, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 843, ../sass/basic.sass */
 #company .contents .description .logo {
   margin: 0 0 20px 0;
 }
-/* line 851, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 846, ../sass/basic.sass */
 #company .contents .description .text p {
   font-size: 14px;
 }
-/* line 853, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 848, ../sass/basic.sass */
 #company .contents .members {
   float: left;
   zoom: 1;
   padding: 0 0 30px 0;
 }
-/* line 3, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 3, ../sass/mixins.sass */
 #company .contents .members:before, #company .contents .members:after {
   display: block;
   height: 0;
   visibility: hidden;
   content: "\0020";
 }
-/* line 9, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 9, ../sass/mixins.sass */
 #company .contents .members:after {
   clear: both;
 }
-/* line 857, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 852, ../sass/basic.sass */
 #company .contents .members li {
   display: block;
   float: left;
@@ -2207,12 +2207,12 @@ section#faq .contents ul li.faq p {
   padding: 0 40px 0 0;
   text-align: center;
 }
-/* line 863, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 858, ../sass/basic.sass */
 #company .contents .members li h2 {
   font-size: 12px;
   margin: 0 0 2px 0;
 }
-/* line 866, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 861, ../sass/basic.sass */
 #company .contents .members li .image {
   display: block;
   height: 100px;
@@ -2229,7 +2229,7 @@ section#faq .contents ul li.faq p {
   -moz-box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
   box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
 }
-/* line 875, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 870, ../sass/basic.sass */
 #company .contents .members li .image img {
   -webkit-border-radius: 50px;
   -moz-border-radius: 50px;
@@ -2239,12 +2239,12 @@ section#faq .contents ul li.faq p {
   width: 100px;
   height: auto;
 }
-/* line 879, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 874, ../sass/basic.sass */
 #company .contents .why {
   clear: both;
   width: 600px;
 }
-/* line 882, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 877, ../sass/basic.sass */
 #company .contents .why h2 {
   font-size: 14px;
   display: block;
@@ -2266,68 +2266,68 @@ section#faq .contents ul li.faq p {
   font-weight: normal;
   margin: 0 0 20px 0;
 }
-/* line 896, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 891, ../sass/basic.sass */
 #company .contents .why p {
   clear: both;
   margin-bottom: 40px;
 }
 
-/* line 899, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 894, ../sass/basic.sass */
 #footer {
   background: #333333;
   padding: 20px 0;
 }
-/* line 902, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 897, ../sass/basic.sass */
 #footer ul {
   width: 960px;
   margin: 0 auto;
   display: block;
 }
-/* line 906, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 901, ../sass/basic.sass */
 #footer ul li {
   display: inline;
 }
-/* line 908, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 903, ../sass/basic.sass */
 #footer ul li a {
   color: #cccccc;
   margin: 0 20px 0 0;
 }
-/* line 49, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 49, ../sass/mixins.sass */
 #footer ul li a:link, #footer ul li a:visited {
   text-decoration: none;
 }
-/* line 52, /Users/kuranuki/github/ja.youroom.in/public/sass/mixins.sass */
+/* line 52, ../sass/mixins.sass */
 #footer ul li a:hover, #footer ul li a:active {
   text-decoration: underline;
 }
 
-/* line 913, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 908, ../sass/basic.sass */
 .privacy h2 {
   font-weight: bold;
   font-size: 16px;
   margin-bottom: 4px;
 }
-/* line 917, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 912, ../sass/basic.sass */
 .privacy h3 {
   font-weight: bold;
   margin-bottom: 2px;
 }
-/* line 920, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 915, ../sass/basic.sass */
 .privacy .tos {
   margin: 30px 0;
 }
-/* line 922, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 917, ../sass/basic.sass */
 .privacy .tos .sign-center {
   text-align: center;
   margin: 20px 0;
   font-weight: bold;
 }
-/* line 926, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 921, ../sass/basic.sass */
 .privacy .tos .sign-right {
   text-align: right;
   margin: 20px 0;
 }
-/* line 929, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 924, ../sass/basic.sass */
 .privacy .tos ol {
   display: block;
   list-style-type: decimal;
@@ -2337,7 +2337,7 @@ section#faq .contents ul li.faq p {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
 }
-/* line 937, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 932, ../sass/basic.sass */
 .privacy .tos ul {
   display: block;
   list-style-type: circle;
@@ -2347,7 +2347,1484 @@ section#faq .contents ul li.faq p {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 40px;
 }
-/* line 946, /Users/kuranuki/github/ja.youroom.in/public/sass/basic.sass */
+/* line 941, ../sass/basic.sass */
 .privacy .tos .li-c li {
   list-style-type: circle;
+}
+
+/* line 5, ../sass/english.sass */
+body#en section#movie .contents hgroup h1 {
+  display: block;
+  background: url(../images/movie_hgroup_h1.png) no-repeat;
+  height: 58px;
+  text-indent: -9999px;
+  margin: 0 0 12px 0;
+}
+/* line 11, ../sass/english.sass */
+body#en section#movie .contents hgroup h2 {
+  display: block;
+  background: url(../images/movie_hgroup_h2.png) no-repeat;
+  height: 62px;
+  text-indent: -9999px;
+}
+/* line 16, ../sass/english.sass */
+body#en section#movie .contents hgroup h3 {
+  font-size: 18px;
+  padding-top: 20px;
+  line-height: 1.4;
+}
+/* line 20, ../sass/english.sass */
+body#en section#movie .contents hgroup p {
+  color: #333330;
+}
+/* line 22, ../sass/english.sass */
+body#en section#movie .contents hgroup .sign_up {
+  margin-top: 32px;
+  padding: 24px 0 0 0;
+}
+/* line 25, ../sass/english.sass */
+body#en section#movie .contents hgroup .sign_up a {
+  font-size: 22px;
+}
+/* line 27, ../sass/english.sass */
+body#en section#movie .contents hgroup p {
+  font-size: 11px;
+  text-align: center;
+  padding: 12px 0 0 0;
+}
+
+/* line 36, ../sass/english.sass */
+body#en section#about .contents .description h1 {
+  background: url(../images/en/about_h1.png);
+  width: 428px;
+  height: 65px;
+  display: block;
+  margin: 0 auto 20px auto;
+  text-indent: -9999px;
+}
+/* line 43, ../sass/english.sass */
+body#en section#about .contents .description p {
+  line-height: 1.4;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+}
+/* line 47, ../sass/english.sass */
+body#en section#about .contents .description p strong {
+  font-weight: bold;
+  color: black;
+}
+/* line 50, ../sass/english.sass */
+body#en section#about .contents .problems {
+  zoom: 1;
+  padding: 0 0 30px 0;
+}
+/* line 3, ../sass/mixins.sass */
+body#en section#about .contents .problems:before, body#en section#about .contents .problems:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en section#about .contents .problems:after {
+  clear: both;
+}
+/* line 53, ../sass/english.sass */
+body#en section#about .contents .problems p.sign_up {
+  line-height: 1.6;
+  margin: 0 0 40px 0;
+  clear: both;
+}
+/* line 75, ../sass/mixins.sass */
+body#en section#about .contents .problems p.sign_up a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px 10px 4px 50px;
+  text-align: center;
+  font-size: 26px;
+  width: 260px;
+  margin: 0 auto;
+  border: #aaaaaa solid 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  text-shadow: white 0 1px 0;
+  -webkit-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  -moz-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  background-color: #efefef;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEFEFEF', endColorstr='#FFCCCCCC');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
+}
+/* line 64, ../sass/mixins.sass */
+body#en section#about .contents .problems p.sign_up a:link, body#en section#about .contents .problems p.sign_up a:visited {
+  opacity: 1;
+}
+/* line 67, ../sass/mixins.sass */
+body#en section#about .contents .problems p.sign_up a:hover, body#en section#about .contents .problems p.sign_up a:active {
+  opacity: 0.7;
+}
+/* line 95, ../sass/mixins.sass */
+body#en section#about .contents .problems p.sign_up a span.whithout_mail {
+  display: block;
+  font-size: 11px;
+  line-height: 1;
+}
+/* line 99, ../sass/mixins.sass */
+body#en section#about .contents .problems p.sign_up a span.free {
+  display: block;
+  font-size: 13px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #e11f51;
+  text-shadow: none;
+  color: white;
+  width: 70px;
+  text-align: center;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+}
+/* line 55, ../sass/english.sass */
+body#en section#about .contents .problems .with_no_waste {
+  clear: both;
+  padding: 50px 0 30px 0;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en section#about .contents .problems .with_no_waste:before, body#en section#about .contents .problems .with_no_waste:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en section#about .contents .problems .with_no_waste:after {
+  clear: both;
+}
+/* line 59, ../sass/english.sass */
+body#en section#about .contents .problems .problem {
+  float: left;
+  width: 420px;
+  clear: both;
+  padding: 0 50px 0 0;
+  background: url(../images/problem.png) no-repeat right 70px;
+}
+/* line 65, ../sass/english.sass */
+body#en section#about .contents .problems .problem h2 {
+  height: 83px;
+  display: block;
+  text-indent: -9999px;
+}
+/* line 69, ../sass/english.sass */
+body#en section#about .contents .problems .problem p {
+  font-size: 13px;
+  line-height: 1.4;
+  margin-bottom: 10px;
+}
+/* line 73, ../sass/english.sass */
+body#en section#about .contents .problems .solution {
+  float: right;
+  width: 480px;
+}
+/* line 76, ../sass/english.sass */
+body#en section#about .contents .problems .solution h3 {
+  padding: 6px 14px 5px 14px;
+  border: #89c25b solid 1px;
+  -webkit-border-radius: 6px 6px 0 0;
+  -moz-border-radius: 6px 6px 0 0;
+  -ms-border-radius: 6px 6px 0 0;
+  -o-border-radius: 6px 6px 0 0;
+  border-radius: 6px 6px 0 0;
+  background-color: #9ad36b;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF9AD36B', endColorstr='#FF89C25B');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzlhZDM2YiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzg5YzI1YiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #9ad36b), color-stop(100%, #89c25b));
+  background-image: -webkit-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
+  background-image: -moz-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
+  background-image: -o-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
+  background-image: -ms-linear-gradient(top, #9ad36b 0%, #89c25b 100%);
+  background-image: linear-gradient(top, #9ad36b 0%, #89c25b 100%);
+}
+/* line 84, ../sass/english.sass */
+body#en section#about .contents .problems .solution h3 span {
+  background: url(../images/en/solution_h3.png) no-repeat left top;
+  height: 28px;
+  display: block;
+  text-indent: -9999px;
+}
+/* line 89, ../sass/english.sass */
+body#en section#about .contents .problems .solution .body {
+  border-bottom: #89c25b solid 5px;
+  border-left: #89c25b solid 5px;
+  border-right: #89c25b solid 5px;
+  -webkit-border-radius: 0 0 6px 6px;
+  -moz-border-radius: 0 0 6px 6px;
+  -ms-border-radius: 0 0 6px 6px;
+  -o-border-radius: 0 0 6px 6px;
+  border-radius: 0 0 6px 6px;
+  padding: 8px 16px;
+  padding-top: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en section#about .contents .problems .solution .body:before, body#en section#about .contents .problems .solution .body:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en section#about .contents .problems .solution .body:after {
+  clear: both;
+}
+/* line 98, ../sass/english.sass */
+body#en section#about .contents .problems .solution .body p {
+  line-height: 1.4;
+  font-size: 13px;
+  margin: 0 0 1.4em 0;
+}
+/* line 103, ../sass/english.sass */
+body#en section#about .contents .problems .solution .body a img {
+  margin: 0 0 10px 16px;
+  float: right;
+}
+/* line 107, ../sass/english.sass */
+body#en section#about .contents .problems .high-speed h2 {
+  background: url(../images/en/high-speed_h2.png) no-repeat left top;
+}
+/* line 110, ../sass/english.sass */
+body#en section#about .contents .problems .with_no_waste h2 {
+  background: url(../images/en/with_no_waste_h2.png) no-repeat left top;
+}
+/* line 112, ../sass/english.sass */
+body#en section#about .contents .anytime_anywhere {
+  clear: both;
+  width: 730px;
+  background: rgba(255, 255, 255, 0.4);
+  border: #abd5ee solid 6px;
+  padding: 16px 30px 16px 20px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+/* line 121, ../sass/english.sass */
+body#en section#about .contents .anytime_anywhere .inner {
+  padding: 0 260px 0 0;
+  background: url(../images/anytime_anywhere.png) no-repeat right bottom;
+}
+/* line 124, ../sass/english.sass */
+body#en section#about .contents .anytime_anywhere .inner h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+  color: #007da7;
+  background: url(../images/anytime_anywhere_h2.png) no-repeat left center;
+  height: 23px;
+  padding: 0 0 0 42px;
+  text-shadow: white 0 1px 0;
+}
+/* line 133, ../sass/english.sass */
+body#en section#about .contents .anytime_anywhere .inner p {
+  line-height: 1.4;
+  display: block;
+  font-size: 13px;
+  color: #5c5845;
+  margin-bottom: 7px;
+}
+/* line 142, ../sass/english.sass */
+body#en section#about .contents .functions, body#en section#about .contents .terms {
+  clear: both;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en section#about .contents .functions:before, body#en section#about .contents .functions:after, body#en section#about .contents .terms:before, body#en section#about .contents .terms:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en section#about .contents .functions:after, body#en section#about .contents .terms:after {
+  clear: both;
+}
+/* line 145, ../sass/english.sass */
+body#en section#about .contents .functions h2, body#en section#about .contents .terms h2 {
+  font-size: 22px;
+  display: block;
+  margin: 0 0 16px 0;
+  font-weight: bold;
+}
+/* line 150, ../sass/english.sass */
+body#en section#about .contents .functions h2 span, body#en section#about .contents .terms h2 span {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0 0 10px;
+}
+/* line 155, ../sass/english.sass */
+body#en section#about .contents .functions .description p, body#en section#about .contents .terms .description p {
+  display: block;
+  margin: 0 0 18px 0;
+}
+/* line 158, ../sass/english.sass */
+body#en section#about .contents .functions ul, body#en section#about .contents .terms ul {
+  zoom: 1;
+  width: 100%;
+  float: left;
+}
+/* line 3, ../sass/mixins.sass */
+body#en section#about .contents .functions ul:before, body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:before, body#en section#about .contents .terms ul:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en section#about .contents .functions ul:after, body#en section#about .contents .terms ul:after {
+  clear: both;
+}
+/* line 163, ../sass/english.sass */
+body#en section#about .contents .functions ul .function h3, body#en section#about .contents .terms ul .function h3 {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1.4;
+  margin: 0 0 10px 0;
+}
+/* line 168, ../sass/english.sass */
+body#en section#about .contents .functions ul .function p, body#en section#about .contents .terms ul .function p {
+  line-height: 1.4;
+  color: #504e0c;
+  background-color: white;
+  padding: 10px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+
+/* line 177, ../sass/english.sass */
+body#en section#faq .contents h1 {
+  background: url(../images/en/faq_h1.png) no-repeat;
+}
+/* line 180, ../sass/english.sass */
+body#en section#faq .contents ul li.faq {
+  display: block;
+  padding: 0 0 28px 0;
+  clear: both;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en section#faq .contents ul li.faq:before, body#en section#faq .contents ul li.faq:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en section#faq .contents ul li.faq:after {
+  clear: both;
+}
+/* line 185, ../sass/english.sass */
+body#en section#faq .contents ul li.faq h2 {
+  font-size: 20px;
+  float: left;
+  width: 240px;
+  line-height: 1.4;
+}
+/* line 190, ../sass/english.sass */
+body#en section#faq .contents ul li.faq p {
+  float: right;
+  width: 510px;
+  display: block;
+  line-height: 1.4;
+}
+
+/* line 200, ../sass/english.sass */
+body#en #voices_senes .contents h1 {
+  background: url(../images/en/voices_senes_h1.png) no-repeat;
+  height: 42px;
+  text-indent: -9999px;
+  margin: 0 0 20px 0;
+}
+/* line 206, ../sass/english.sass */
+body#en #voices_senes .contents p.sign_up {
+  line-height: 1.6;
+  margin: 0 0 40px 0;
+  clear: both;
+}
+/* line 75, ../sass/mixins.sass */
+body#en #voices_senes .contents p.sign_up a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px 10px 4px 50px;
+  text-align: center;
+  font-size: 26px;
+  width: 260px;
+  margin: 0 auto;
+  border: #aaaaaa solid 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  text-shadow: white 0 1px 0;
+  -webkit-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  -moz-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  background-color: #efefef;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEFEFEF', endColorstr='#FFCCCCCC');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
+}
+/* line 64, ../sass/mixins.sass */
+body#en #voices_senes .contents p.sign_up a:link, body#en #voices_senes .contents p.sign_up a:visited {
+  opacity: 1;
+}
+/* line 67, ../sass/mixins.sass */
+body#en #voices_senes .contents p.sign_up a:hover, body#en #voices_senes .contents p.sign_up a:active {
+  opacity: 0.7;
+}
+/* line 95, ../sass/mixins.sass */
+body#en #voices_senes .contents p.sign_up a span.whithout_mail {
+  display: block;
+  font-size: 11px;
+  line-height: 1;
+}
+/* line 99, ../sass/mixins.sass */
+body#en #voices_senes .contents p.sign_up a span.free {
+  display: block;
+  font-size: 13px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #e11f51;
+  text-shadow: none;
+  color: white;
+  width: 70px;
+  text-align: center;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+}
+/* line 210, ../sass/english.sass */
+body#en #voices_senes .contents .voices .voice p {
+  background: url("../images/voices_p.gif") no-repeat left top;
+  margin: 6px 40px 0 0;
+  line-height: 1.3;
+  display: block;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  padding: 29px 0 20px 20px;
+}
+/* line 217, ../sass/english.sass */
+body#en #voices_senes .contents .voices .voice p span {
+  display: block;
+}
+/* line 219, ../sass/english.sass */
+body#en #voices_senes .contents .voices .voice p .name {
+  font-size: 14px;
+  font-weight: bold;
+}
+/* line 222, ../sass/english.sass */
+body#en #voices_senes .contents .voices .voice p.message {
+  background: none;
+  background-color: white;
+  padding: 20px;
+}
+/* line 226, ../sass/english.sass */
+body#en #voices_senes .contents .voices .center {
+  margin: 0 10px;
+}
+/* line 228, ../sass/english.sass */
+body#en #voices_senes .contents .companies {
+  padding: 0 0 30px 0;
+}
+/* line 230, ../sass/english.sass */
+body#en #voices_senes .contents .companies h2 {
+  font-size: 14px;
+  display: block;
+  float: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  background: rgba(159, 116, 32, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+  color: white;
+  padding: 6px 0;
+  width: 160px;
+  text-align: center;
+  font-weight: normal;
+}
+/* line 243, ../sass/english.sass */
+body#en #voices_senes .contents .companies ul {
+  zoom: 1;
+  clear: both;
+  padding: 0 0 20px 0;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #voices_senes .contents .companies ul:before, body#en #voices_senes .contents .companies ul:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #voices_senes .contents .companies ul:after {
+  clear: both;
+}
+/* line 247, ../sass/english.sass */
+body#en #voices_senes .contents .companies ul li.company {
+  float: left;
+  display: block;
+  padding: 0 5px;
+}
+/* line 251, ../sass/english.sass */
+body#en #voices_senes .contents .medias {
+  zoom: 1;
+  margin: 0 0 30px 0;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #voices_senes .contents .medias:before, body#en #voices_senes .contents .medias:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #voices_senes .contents .medias:after {
+  clear: both;
+}
+/* line 254, ../sass/english.sass */
+body#en #voices_senes .contents .medias h2 {
+  font-size: 14px;
+  display: block;
+  float: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  background: rgba(159, 116, 32, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+  color: white;
+  padding: 6px 0;
+  width: 160px;
+  text-align: center;
+  font-weight: normal;
+}
+/* line 267, ../sass/english.sass */
+body#en #voices_senes .contents .medias ul {
+  zoom: 1;
+  clear: both;
+  padding: 0 0 20px 40px;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #voices_senes .contents .medias ul:before, body#en #voices_senes .contents .medias ul:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #voices_senes .contents .medias ul:after {
+  clear: both;
+}
+/* line 271, ../sass/english.sass */
+body#en #voices_senes .contents .medias ul li.media {
+  float: left;
+  display: block;
+  padding: 0 5px;
+}
+/* line 275, ../sass/english.sass */
+body#en #voices_senes .contents .senes {
+  clear: both;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #voices_senes .contents .senes:before, body#en #voices_senes .contents .senes:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #voices_senes .contents .senes:after {
+  clear: both;
+}
+/* line 279, ../sass/english.sass */
+body#en #voices_senes .contents .senes h2 span {
+  font-size: 12px;
+  font-weight: normal;
+  margin: 0 0 0 10px;
+}
+/* line 284, ../sass/english.sass */
+body#en #voices_senes .contents .senes .description p {
+  display: block;
+  margin: 0 0 18px 0;
+}
+/* line 287, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul {
+  zoom: 1;
+  width: 100%;
+  float: left;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #voices_senes .contents .senes ul:before, body#en #voices_senes .contents .senes ul:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #voices_senes .contents .senes ul:after {
+  clear: both;
+}
+/* line 291, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .scene {
+  float: left;
+  font-size: 13px;
+  width: 280px;
+  height: 300px;
+}
+/* line 296, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .scene h3 {
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+}
+/* line 301, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .scene p {
+  line-height: 1.4;
+  color: #504e0c;
+}
+/* line 304, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .scene p a {
+  font-weight: bold;
+}
+/* line 307, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .scene .image img {
+  display: block;
+  margin: 14px auto 0 auto;
+}
+/* line 310, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .center {
+  border-left: white solid 1px;
+  border-right: #eae3ce solid 1px;
+  padding: 15px;
+}
+/* line 314, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .left {
+  border-right: #eae3ce solid 1px;
+  padding: 15px 15px 15px 0;
+}
+/* line 317, ../sass/english.sass */
+body#en #voices_senes .contents .senes ul .right {
+  border-left: white solid 1px;
+  padding: 15px 0 15px 15px;
+}
+
+/* line 323, ../sass/english.sass */
+body#en #pricing .contents h1 {
+  background: url(../images/en/pricing_h1.png) no-repeat;
+  height: 42px;
+  text-indent: -9999px;
+  margin: 0 0 20px 0;
+}
+/* line 328, ../sass/english.sass */
+body#en #pricing .contents p {
+  line-height: 1.4;
+}
+/* line 330, ../sass/english.sass */
+body#en #pricing .contents p.sign_up {
+  line-height: 1.6;
+  margin: 0 0 40px 0;
+  clear: both;
+}
+/* line 75, ../sass/mixins.sass */
+body#en #pricing .contents p.sign_up a {
+  display: block;
+  text-decoration: none;
+  position: relative;
+  font-weight: bold;
+  color: #333333;
+  padding: 10px 10px 4px 50px;
+  text-align: center;
+  font-size: 26px;
+  width: 260px;
+  margin: 0 auto;
+  border: #aaaaaa solid 1px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  text-shadow: white 0 1px 0;
+  -webkit-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  -moz-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.3) 0 1px 1px 0;
+  background-color: #efefef;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEFEFEF', endColorstr='#FFCCCCCC');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VmZWZlZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #efefef), color-stop(100%, #cccccc));
+  background-image: -webkit-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -moz-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -o-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: -ms-linear-gradient(top, #efefef 0%, #cccccc 100%);
+  background-image: linear-gradient(top, #efefef 0%, #cccccc 100%);
+}
+/* line 64, ../sass/mixins.sass */
+body#en #pricing .contents p.sign_up a:link, body#en #pricing .contents p.sign_up a:visited {
+  opacity: 1;
+}
+/* line 67, ../sass/mixins.sass */
+body#en #pricing .contents p.sign_up a:hover, body#en #pricing .contents p.sign_up a:active {
+  opacity: 0.7;
+}
+/* line 95, ../sass/mixins.sass */
+body#en #pricing .contents p.sign_up a span.whithout_mail {
+  display: block;
+  font-size: 11px;
+  line-height: 1;
+}
+/* line 99, ../sass/mixins.sass */
+body#en #pricing .contents p.sign_up a span.free {
+  display: block;
+  font-size: 13px;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  background: #e11f51;
+  text-shadow: none;
+  color: white;
+  width: 70px;
+  text-align: center;
+  width: 46px;
+  height: 46px;
+  line-height: 46px;
+  -webkit-border-radius: 23px;
+  -moz-border-radius: 23px;
+  -ms-border-radius: 23px;
+  -o-border-radius: 23px;
+  border-radius: 23px;
+}
+/* line 332, ../sass/english.sass */
+body#en #pricing .contents .main {
+  margin: 0 0 20px 0;
+  float: left;
+  width: 380px;
+  font-size: 13px;
+}
+/* line 337, ../sass/english.sass */
+body#en #pricing .contents .premium_plan {
+  padding: 12px;
+  float: right;
+  width: 520px;
+  margin: -40px 0 20px 0;
+  border: #4682b4 solid 1px;
+  background: #4682b4;
+  color: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 346, ../sass/english.sass */
+body#en #pricing .contents .premium_plan h2 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0 0 8px 0;
+}
+/* line 350, ../sass/english.sass */
+body#en #pricing .contents .premium_plan strong {
+  font-weight: bold;
+  color: yellow;
+  font-size: 14px;
+}
+/* line 354, ../sass/english.sass */
+body#en #pricing .contents .premium_plan ul {
+  padding: 0 20px;
+}
+/* line 356, ../sass/english.sass */
+body#en #pricing .contents .premium_plan ul li {
+  display: block;
+  line-height: 1.3;
+  margin: 0 0 5px 0;
+  font-size: 13px;
+  padding: 0 0 0 14px;
+  background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
+}
+/* line 363, ../sass/english.sass */
+body#en #pricing .contents .fan_plan {
+  position: relative;
+  clear: both;
+  margin: 0 0 30px 0;
+  padding: 18px;
+  zoom: 1;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, white 0 1px 1px 1px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, white 0 1px 1px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, white 0 1px 1px 1px inset;
+  background-color: #f9f9f9;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFCFCFC', endColorstr='#FFF2F2F2');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZmNmYyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fcfcfc), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+  background-image: -moz-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+  background-image: -o-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+  background-image: -ms-linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+  background-image: linear-gradient(top, #fcfcfc 0%, #f2f2f2 100%);
+}
+/* line 3, ../sass/mixins.sass */
+body#en #pricing .contents .fan_plan:before, body#en #pricing .contents .fan_plan:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #pricing .contents .fan_plan:after {
+  clear: both;
+}
+/* line 375, ../sass/english.sass */
+body#en #pricing .contents .fan_plan .recommend {
+  background: url(../images/recommend.png) no-repeat;
+  width: 87px;
+  height: 87px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-indent: -9999px;
+  display: block;
+}
+/* line 385, ../sass/english.sass */
+body#en #pricing .contents .fan_plan .price {
+  font-weight: bold;
+  font-size: 34px;
+  display: block;
+  background: url(../images/en/kuchikomi.png) no-repeat 50px top;
+  height: 92px;
+  text-indent: -9999px;
+  margin: 0 0 20px 0;
+}
+/* line 393, ../sass/english.sass */
+body#en #pricing .contents .fan_plan .description {
+  background: #fcf5bb;
+  padding: 12px 18px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  border: #f8ec88 solid 1px;
+}
+/* line 398, ../sass/english.sass */
+body#en #pricing .contents .fan_plan .description h3 {
+  float: left;
+  margin: 0 0 6px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+/* line 403, ../sass/english.sass */
+body#en #pricing .contents .fan_plan .description p {
+  clear: both;
+  color: #595852;
+}
+/* line 406, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan {
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan:before, body#en #pricing .contents .enterprise_plan:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan:after {
+  clear: both;
+}
+/* line 408, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan h2 {
+  border: #073a60 solid 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, rgba(255, 255, 255, 0.1) 0 1px 2px 2px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, rgba(255, 255, 255, 0.1) 0 1px 2px 2px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, rgba(255, 255, 255, 0.1) 0 1px 2px 2px inset;
+  -webkit-border-radius: 4px 4px 0px 0px;
+  -moz-border-radius: 4px 4px 0px 0px;
+  -ms-border-radius: 4px 4px 0px 0px;
+  -o-border-radius: 4px 4px 0px 0px;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #1f71af;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF1F71AF', endColorstr='#FF0F4E7F');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFmNzFhZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBmNGU3ZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1f71af), color-stop(100%, #0f4e7f));
+  background-image: -webkit-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
+  background-image: -moz-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
+  background-image: -o-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
+  background-image: -ms-linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
+  background-image: linear-gradient(top, #1f71af 0%, #0f4e7f 100%);
+}
+/* line 416, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan h2 span {
+  display: block;
+  font-weight: bold;
+  background: url(../images/enterprise_plan_h2.png) no-repeat 10px 0;
+  padding: 10px 46px;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+  text-shadow: #073a60 0 1px 0;
+}
+/* line 425, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner {
+  zoom: 1;
+  padding: 18px 26px;
+  border-top: white 1px solid;
+  -webkit-border-radius: 0px 0px 4px 4px;
+  -moz-border-radius: 0px 0px 4px 4px;
+  -ms-border-radius: 0px 0px 4px 4px;
+  -o-border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, white 0 1px 1px 1px inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, white 0 1px 1px 1px inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 1px, white 0 1px 1px 1px inset;
+  background-color: #f9f9f9;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF9F9F9', endColorstr='#FFF2F2F2');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f9f9f9), color-stop(100%, #f2f2f2));
+  background-image: -webkit-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+  background-image: -moz-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+  background-image: -o-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+  background-image: -ms-linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+  background-image: linear-gradient(top, #f9f9f9 0%, #f2f2f2 100%);
+}
+/* line 3, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner:before, body#en #pricing .contents .enterprise_plan .inner:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner:after {
+  clear: both;
+}
+/* line 435, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .description {
+  padding: 0 0 30px 0;
+}
+/* line 437, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .description p {
+  font-size: 14px;
+}
+/* line 439, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .features {
+  padding: 0 0 0 30px;
+  margin: 0 0 40px 0;
+}
+/* line 442, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .features h3 {
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0 120px 24px 120px;
+  padding: 7px 7px 8px 7px;
+  text-align: center;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+  border-radius: 12px;
+  text-shadow: white 0 1px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0 inset, white 0 1px 1px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0 inset, white 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 0 inset, white 0 1px 1px;
+  background-color: #f2f2f2;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFF2F2F2', endColorstr='#FFE8E8E8');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjJmMiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f2f2f2), color-stop(100%, #e8e8e8));
+  background-image: -webkit-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
+  background-image: -moz-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
+  background-image: -o-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
+  background-image: -ms-linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
+  background-image: linear-gradient(top, #f2f2f2 0%, #e8e8e8 100%);
+}
+/* line 455, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .features ul {
+  padding: 0 40px;
+  background: url(../images/enterprise_plan.png) no-repeat 650px center;
+}
+/* line 458, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .features ul li {
+  display: block;
+  line-height: 1.6;
+  margin: 0 0 8px 0;
+  font-size: 13px;
+  padding: 0 0 0 13px;
+  background: url(../images/enterprise_plan_li.png) no-repeat 0 8px;
+}
+/* line 465, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry {
+  clear: both;
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 12px 12px 6px 12px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px 0 inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 1px 0 inset;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry:before, body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry:after {
+  clear: both;
+}
+/* line 473, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry p.image {
+  float: left;
+  padding: 0 20px 0 0;
+}
+/* line 476, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts {
+  float: left;
+  width: 660px;
+}
+/* line 479, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0 0 12px 0;
+}
+/* line 484, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li {
+  display: block;
+  line-height: 1.5;
+  margin: 0 0 4px 0;
+  font-size: 13px;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:before, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li:after {
+  clear: both;
+}
+/* line 490, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li h4 {
+  display: inline;
+}
+/* line 492, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li p {
+  display: inline;
+}
+/* line 495, ../sass/english.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a {
+  position: absolute;
+  text-shadow: #155a90 0 -1px 0;
+  display: block;
+  bottom: 12px;
+  right: 12px;
+  color: white;
+  text-decoration: none;
+  border: #10427c solid 1px;
+  padding: 6px 12px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #4b91c6;
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4B91C6', endColorstr='#FF1E5799');
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjUwJSIgeTE9IjAlIiB4Mj0iNTAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiOTFjNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzFlNTc5OSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b91c6), color-stop(100%, #1e5799));
+  background-image: -webkit-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
+  background-image: -moz-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
+  background-image: -o-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
+  background-image: -ms-linear-gradient(top, #4b91c6 0%, #1e5799 100%);
+  background-image: linear-gradient(top, #4b91c6 0%, #1e5799 100%);
+}
+/* line 64, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:link, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:visited {
+  opacity: 1;
+}
+/* line 67, ../sass/mixins.sass */
+body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:hover, body#en #pricing .contents .enterprise_plan .inner .inquiry .contacts ul li.form_button a:active {
+  opacity: 0.7;
+}
+
+/* line 514, ../sass/english.sass */
+body#en #communites .contents h1 {
+  background: url(../images/en/communites_h1.png) no-repeat;
+}
+/* line 516, ../sass/english.sass */
+body#en #communites .contents p {
+  font-size: 14px;
+  line-height: 1.3;
+}
+/* line 519, ../sass/english.sass */
+body#en #communites .contents .sns {
+  clear: both;
+  margin: 30px 0 10px 0;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #communites .contents .sns:before, body#en #communites .contents .sns:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #communites .contents .sns:after {
+  clear: both;
+}
+/* line 523, ../sass/english.sass */
+body#en #communites .contents .sns li {
+  display: block;
+  width: 225px;
+  float: left;
+  padding: 0 0 20px 0;
+}
+/* line 529, ../sass/english.sass */
+body#en #communites .contents .sns li a img {
+  float: left;
+  margin: 0 10px 0 0;
+}
+/* line 532, ../sass/english.sass */
+body#en #communites .contents .sns li h2 {
+  margin: 0 0 6px 0;
+}
+/* line 534, ../sass/english.sass */
+body#en #communites .contents .sns li h2 a {
+  font-size: 13px;
+  font-weight: bold;
+}
+/* line 537, ../sass/english.sass */
+body#en #communites .contents .sns li p {
+  font-size: 12px;
+  line-height: 1.3;
+}
+/* line 540, ../sass/english.sass */
+body#en #communites .contents .sns li.two {
+  padding: 0 20px 20px 20px;
+}
+/* line 542, ../sass/english.sass */
+body#en #communites .contents .sns li.three {
+  padding: 0 20px 20px 0;
+}
+/* line 545, ../sass/english.sass */
+body#en #communites .contents .developers {
+  padding: 10px 0 0 14px;
+  border: #89c25b solid 4px;
+  background: rgba(255, 255, 255, 0.4);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  zoom: 1;
+  float: left;
+  margin: 0 0 20px 0;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #communites .contents .developers:before, body#en #communites .contents .developers:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #communites .contents .developers:after {
+  clear: both;
+}
+/* line 553, ../sass/english.sass */
+body#en #communites .contents .developers li {
+  width: 180px;
+  float: left;
+}
+/* line 556, ../sass/english.sass */
+body#en #communites .contents .developers li h3 {
+  margin: 0 0 6px 0;
+}
+/* line 558, ../sass/english.sass */
+body#en #communites .contents .developers h2 {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 562, ../sass/english.sass */
+body#en #communites .contents .developers p {
+  font-size: 12px;
+  margin: 0 0 12px 0;
+}
+/* line 566, ../sass/english.sass */
+body#en #communites .contents .api h2 {
+  margin: 0 0 8px 0;
+  font-weight: bold;
+  font-size: 14px;
+}
+/* line 570, ../sass/english.sass */
+body#en #communites .contents .api p {
+  margin: 0 0 14px 0;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+/* line 577, ../sass/english.sass */
+body#en #inquiry .contents h1 {
+  background: url(../images/en/inquiry_h1.png) no-repeat;
+  height: 42px;
+  text-indent: -9999px;
+  margin: 0 0 20px 0;
+}
+/* line 582, ../sass/english.sass */
+body#en #inquiry .contents iframe {
+  margin: 0 0 0 60px;
+}
+
+/* line 585, ../sass/english.sass */
+body#en #company {
+  background: url(../images/bg_cream.gif) #f8f8ee;
+  padding: 50px 0;
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #company:before, body#en #company:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #company:after {
+  clear: both;
+}
+/* line 589, ../sass/english.sass */
+body#en #company .contents {
+  zoom: 1;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #company .contents:before, body#en #company .contents:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #company .contents:after {
+  clear: both;
+}
+/* line 591, ../sass/english.sass */
+body#en #company .contents h1 {
+  background: url(../images/en/company_h1.png) no-repeat;
+  height: 42px;
+  text-indent: -9999px;
+  margin: 0 0 20px 0;
+}
+/* line 596, ../sass/english.sass */
+body#en #company .contents p {
+  line-height: 1.6;
+  font-size: 13px;
+}
+/* line 599, ../sass/english.sass */
+body#en #company .contents .description {
+  zoom: 1;
+  padding: 0 0 40px 0;
+  width: 500px;
+  float: left;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #company .contents .description:before, body#en #company .contents .description:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #company .contents .description:after {
+  clear: both;
+}
+/* line 604, ../sass/english.sass */
+body#en #company .contents .description .logo {
+  margin: 0 0 20px 0;
+}
+/* line 607, ../sass/english.sass */
+body#en #company .contents .description .text p {
+  font-size: 14px;
+}
+/* line 609, ../sass/english.sass */
+body#en #company .contents .members {
+  float: left;
+  zoom: 1;
+  padding: 0 0 30px 30px;
+}
+/* line 3, ../sass/mixins.sass */
+body#en #company .contents .members:before, body#en #company .contents .members:after {
+  display: block;
+  height: 0;
+  visibility: hidden;
+  content: "\0020";
+}
+/* line 9, ../sass/mixins.sass */
+body#en #company .contents .members:after {
+  clear: both;
+}
+/* line 613, ../sass/english.sass */
+body#en #company .contents .members li {
+  display: block;
+  float: left;
+  width: 140px;
+  padding: 0 20px 0 0;
+  text-align: center;
+}
+/* line 619, ../sass/english.sass */
+body#en #company .contents .members li h2 {
+  font-size: 12px;
+  margin: 0 0 2px 0;
+}
+/* line 622, ../sass/english.sass */
+body#en #company .contents .members li .image {
+  display: block;
+  height: 100px;
+  width: 100px;
+  padding: 5px;
+  -webkit-border-radius: 55px;
+  -moz-border-radius: 55px;
+  -ms-border-radius: 55px;
+  -o-border-radius: 55px;
+  border-radius: 55px;
+  background: rgba(0, 0, 0, 0.1);
+  margin: 0 auto 8px auto;
+  -webkit-box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
+  -moz-box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
+  box-shadow: white 0 1px 1px 0, rgba(0, 0, 0, 0.1) 0 1px 0 inset;
+}
+/* line 631, ../sass/english.sass */
+body#en #company .contents .members li .image img {
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: auto;
+}
+/* line 635, ../sass/english.sass */
+body#en #company .contents .why {
+  clear: both;
+  width: 600px;
+}
+/* line 638, ../sass/english.sass */
+body#en #company .contents .why h2 {
+  font-size: 14px;
+  display: block;
+  float: left;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  -ms-border-radius: 14px;
+  -o-border-radius: 14px;
+  border-radius: 14px;
+  background: rgba(159, 116, 32, 0.6);
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 0 inset;
+  text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
+  color: white;
+  padding: 6px 0;
+  width: 320px;
+  text-align: center;
+  font-weight: normal;
+  margin: 0 0 20px 0;
+}
+/* line 652, ../sass/english.sass */
+body#en #company .contents .why p {
+  clear: both;
+  margin-bottom: 40px;
 }
